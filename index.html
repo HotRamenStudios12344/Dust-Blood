@@ -1,0 +1,252 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#292929">
+  <title>Dust &amp; Blood — Home</title>
+
+  <!-- Keep your existing shared stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="homepage.css">
+</head>
+
+<body class="home-page">
+
+  <header class="topbar">
+    <a class="brand" href="index.html">
+      <strong>DUST &amp; BLOOD</strong>
+      <span>A tabletop roleplaying game</span>
+    </a>
+
+    <nav class="top-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="rules.html">Rules Reference</a>
+      <a href="character-creator.html">Character Creator</a>
+    </nav>
+
+    <span class="version">1ST EDITION</span>
+  </header>
+
+  <main class="home-shell">
+
+    <div class="home-breadcrumb">
+      Dust &amp; Blood <span>/</span> Home
+    </div>
+
+    <!-- INTRODUCTION -->
+    <section class="home-intro">
+      <div class="eyebrow">A WESTERN TABLETOP ROLEPLAYING GAME</div>
+
+      <h1>Your story starts<br>on the frontier.</h1>
+
+      <p class="home-lead">
+        A traditional Western roleplaying game about hard choices,
+        dangerous journeys, and the lives people build on the frontier.
+      </p>
+
+      <div class="home-actions">
+        <a class="primary-action" href="rules.html">
+          Explore the Rules <span aria-hidden="true">→</span>
+        </a>
+
+        <a class="secondary-action" href="character-creator.html">
+          Create a Character <span aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <div class="home-note">
+        <span class="status-dot"></span>
+        The home of the Dust &amp; Blood rulebook
+      </div>
+    </section>
+
+    <!-- MAIN DESTINATIONS -->
+    <section class="destination-section">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">GET STARTED</div>
+          <h2>Explore Dust &amp; Blood</h2>
+        </div>
+
+        <p>
+          Find the rules, prepare your character, and follow the
+          development of the game.
+        </p>
+      </div>
+
+      <div class="destination-grid">
+
+        <a class="destination-card" href="rules.html">
+          <div class="card-topline">
+            <span class="card-icon" aria-hidden="true">§</span>
+            <span class="card-kicker">RULES &amp; MECHANICS</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </div>
+
+          <h3>Rules Reference</h3>
+
+          <p>
+            Browse the rules for character creation, combat, Traits,
+            Flaws, equipment, and survival on the frontier.
+          </p>
+
+          <span class="card-link">
+            Browse the rulebook →
+          </span>
+        </a>
+
+        <a class="destination-card" href="character-creator.html">
+          <div class="card-topline">
+            <span class="card-icon" aria-hidden="true">✎</span>
+            <span class="card-kicker">CHARACTER TOOLS</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </div>
+
+          <h3>Character Creator</h3>
+
+          <p>
+            Build your character, choose a Background, select Traits
+            and Flaws, and manage your character sheet.
+          </p>
+
+          <span class="card-link">
+            Character tools →
+          </span>
+
+          <span class="card-status">In development</span>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- CHANGELOG -->
+    <section class="updates-section" id="updates">
+      <div class="updates-heading">
+        <div class="eyebrow">DEVELOPMENT</div>
+        <h2>Latest Updates</h2>
+        <p>
+          Follow changes to the rules and the development of
+          Dust &amp; Blood.
+        </p>
+      </div>
+
+      <div class="changelog-list" id="changelog-list">
+        <p class="changelog-loading">Loading updates...</p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about-section" id="about">
+      <div class="about-copy">
+        <div class="eyebrow">ABOUT THE GAME</div>
+        <h2>A hard country.<br>Hard choices.</h2>
+      </div>
+
+      <div class="about-body">
+        <p>
+          Dust &amp; Blood is a traditional Western tabletop roleplaying
+          game focused on frontier life, dangerous encounters, and the
+          choices that define a character.
+        </p>
+
+        <p>
+          Create your own character through Backgrounds, Core Scores,
+          Proficiencies, Traits, and Flaws. Your story is shaped by the
+          decisions you make at the table.
+        </p>
+
+        <a class="card-link" href="rules.html">
+          Read the rules →
+        </a>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="home-footer">
+      <span>
+        <strong>DUST &amp; BLOOD</strong>
+        · A tabletop roleplaying game
+      </span>
+
+      <a href="rules.html">Rules Reference</a>
+    </footer>
+
+  </main>
+
+  <!-- Reads the generated changelog.json file -->
+  <script>
+    async function loadChangelog() {
+      const container = document.getElementById("changelog-list");
+
+      try {
+        const response = await fetch("data/changelog.json");
+
+        if (!response.ok) {
+          throw new Error("Changelog unavailable");
+        }
+
+        const data = await response.json();
+
+        // Supports either an array or an object containing entries.
+        const entries = Array.isArray(data)
+          ? data
+          : (data.entries || data.changelog || []);
+
+        if (!entries.length) {
+          container.innerHTML =
+            '<p class="changelog-empty">No updates have been published yet.</p>';
+          return;
+        }
+
+        container.replaceChildren();
+
+        entries.slice(0, 4).forEach(entry => {
+          const article = document.createElement("article");
+          article.className = "changelog-entry";
+
+          const title = document.createElement("h3");
+          title.textContent =
+            entry.title || entry.version || "Update";
+
+          const date = document.createElement("p");
+          date.className = "changelog-date";
+          date.textContent = entry.date || "";
+
+          const description = document.createElement("p");
+          description.textContent =
+            entry.description || entry.summary || "";
+
+          article.append(title, date, description);
+
+          if (Array.isArray(entry.changes) && entry.changes.length) {
+            const list = document.createElement("ul");
+
+            entry.changes.slice(0, 5).forEach(change => {
+              const item = document.createElement("li");
+              item.textContent =
+                typeof change === "string"
+                  ? change
+                  : (change.description || change.title || "");
+              list.appendChild(item);
+            });
+
+            article.appendChild(list);
+          }
+
+          container.appendChild(article);
+        });
+      } catch (error) {
+        container.innerHTML =
+          '<p class="changelog-empty">Updates could not be loaded. ' +
+          'Make sure the site is running through your local web server ' +
+          'and data/changelog.json exists.</p>';
+      }
+    }
+
+    loadChangelog();
+  </script>
+
+</body>
+</html>
