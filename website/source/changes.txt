@@ -1,0 +1,9 @@
+# Add each real rules update as a block below. Descriptions are written by you.
+# Example:
+# [CHANGE]
+# edition: 1st Edition
+# date: 2026-10-16
+# section: combat
+# title: Updated Action Points
+# description: Explain what changed and why.
+# [END CHANGE]

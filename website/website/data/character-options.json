@@ -1,0 +1,318 @@
+
+{
+  "startingCP": 10,
+  "maxFlawCP": 10,
+  "scoreModifierBands": [
+    {"min": 1, "max": 1, "modifier": -5},
+    {"min": 2, "max": 3, "modifier": -4},
+    {"min": 4, "max": 5, "modifier": -3},
+    {"min": 6, "max": 7, "modifier": -2},
+    {"min": 8, "max": 9, "modifier": -1},
+    {"min": 10, "max": 11, "modifier": 0},
+    {"min": 12, "max": 13, "modifier": 1},
+    {"min": 14, "max": 15, "modifier": 2},
+    {"min": 16, "max": 17, "modifier": 3},
+    {"min": 18, "max": 18, "modifier": 4}
+  ],
+  "backgrounds": [
+    {
+      "id": "none",
+      "name": "No Background",
+      "description": "Choose a Background.",
+      "startingMoney": 0,
+      "scoreBonuses": {}
+    },
+    {
+      "id": "ranch-hand",
+      "name": "Ranch Hand",
+      "description": "A working hand familiar with ranch life.",
+      "startingMoney": 10,
+      "scoreBonuses": {"Might": 2},
+      "proficiencies": ["Riding", "Animal Handling"]
+    },
+    {
+      "id": "blacksmith",
+      "name": "Blacksmith",
+      "description": "A craftsperson who works metal and tools.",
+      "startingMoney": 25,
+      "scoreBonuses": {}
+    },
+    {
+      "id": "lawman",
+      "name": "Lawman",
+      "description": "A representative of the law.",
+      "startingMoney": 30,
+      "reputation": 5,
+      "scoreBonuses": {}
+    },
+    {
+      "id": "gambler",
+      "name": "Gambler",
+      "description": "A risk-taker with an outstanding debt.",
+      "startingMoney": 15,
+      "startingDebt": 20,
+      "scoreBonuses": {}
+    },
+    {
+      "id": "outlaw",
+      "name": "Outlaw",
+      "description": "A wanted or notorious person.",
+      "startingMoney": 5,
+      "reputation": -5,
+      "scoreBonuses": {}
+    },
+    {
+      "id": "doctor",
+      "name": "Doctor",
+      "description": "A medical practitioner associated with the Pacifist Flaw.",
+      "startingMoney": 75,
+      "scoreBonuses": {},
+      "startingFlaws": ["pacifist"]
+    }
+  ],
+  "traits": [
+    {
+      "id": "active-rider",
+      "name": "Active Rider",
+      "cp": 2,
+      "description": "Mounted-mobility Trait. Enter the exact rules effect.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "mounted-shooter",
+      "name": "Mounted Shooter",
+      "cp": 2,
+      "description": "Mounted-firearm Trait. Enter the exact rules effect.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "quick-draw",
+      "name": "Quick Draw",
+      "cp": 2,
+      "description": "Weapon-draw Trait. Enter the exact rules effect.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "fast-reload",
+      "name": "Fast Reload",
+      "cp": 2,
+      "description": "Reload-related Trait. Enter the exact rules effect.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "deadeye",
+      "name": "Deadeye",
+      "cp": 3,
+      "description": "Firearm accuracy Trait. Enter the exact rules effect.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "brawler",
+      "name": "Brawler",
+      "cp": 3,
+      "description": "Unarmed fighting Trait. Rank III is documented to allow two punches per 1 AP; other effects need the final rules.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "sprinter",
+      "name": "Sprinter",
+      "cp": 2,
+      "description": "Movement Trait. Enter the exact rules effect.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "field-medic",
+      "name": "Field Medic",
+      "cp": 2,
+      "description": "Medical Trait. Enter the exact rules effect.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "herbalist",
+      "name": "Herbalist",
+      "cp": 2,
+      "description": "Remedy Trait. Enter the exact rules effect.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "moral-dilemma",
+      "name": "Moral Dilemma",
+      "cp": 1,
+      "description": "Character complication. Enter the exact rules effect.",
+      "effects": {},
+      "example": true
+    }
+  ],
+  "flaws": [
+    {
+      "id": "pacifist",
+      "name": "Pacifist",
+      "cp": 2,
+      "description": "Associated with the Doctor Background. Confirm its final CP value and effect.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "poor-example",
+      "name": "Poor (Example)",
+      "cp": 2,
+      "description": "Placeholder Flaw for testing the interface.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "wanted-example",
+      "name": "Wanted (Example)",
+      "cp": 2,
+      "description": "Placeholder Flaw for testing the interface.",
+      "effects": {},
+      "example": true
+    }
+  ],
+  "items": [
+    {
+      "id": "pocket-pistol",
+      "name": "Pocket Pistol",
+      "type": "weapon",
+      "price": 8,
+      "damage": "1d6",
+      "range": "30 ft",
+      "capacity": 1,
+      "reload": 1,
+      "slots": 3,
+      "hitBonus": 0,
+      "description": "Starter firearm."
+    },
+    {
+      "id": "revolver",
+      "name": "Revolver",
+      "type": "weapon",
+      "price": 20,
+      "damage": "1d8",
+      "range": "50 ft",
+      "capacity": 6,
+      "reload": 2,
+      "slots": 3,
+      "hitBonus": 0,
+      "description": "Starter firearm."
+    },
+    {
+      "id": "shotgun",
+      "name": "Shotgun",
+      "type": "weapon",
+      "price": 25,
+      "damage": "1d10",
+      "range": "30 ft",
+      "capacity": 2,
+      "reload": 1,
+      "slots": 3,
+      "hitBonus": 0,
+      "description": "Starter firearm."
+    },
+    {
+      "id": "lever-rifle",
+      "name": "Lever Rifle",
+      "type": "weapon",
+      "price": 30,
+      "damage": "1d10",
+      "range": "100 ft",
+      "capacity": 6,
+      "reload": 2,
+      "slots": 3,
+      "hitBonus": 0,
+      "description": "Starter firearm."
+    },
+    {
+      "id": "hunting-rifle",
+      "name": "Hunting Rifle",
+      "type": "weapon",
+      "price": 35,
+      "damage": "1d12",
+      "range": "150 ft",
+      "capacity": 1,
+      "reload": 2,
+      "slots": 3,
+      "hitBonus": 0,
+      "description": "Starter firearm."
+    },
+    {
+      "id": "traveler-shirt",
+      "name": "Traveler Shirt",
+      "type": "armor",
+      "price": 0,
+      "defense": 7,
+      "description": "Documented clothing Defense value: 7."
+    },
+    {
+      "id": "pants",
+      "name": "Pants",
+      "type": "armor",
+      "price": 0,
+      "defense": 5,
+      "description": "Documented clothing Defense value: 5."
+    },
+    {
+      "id": "hat",
+      "name": "Hat",
+      "type": "armor",
+      "price": 0,
+      "defense": 2,
+      "description": "Documented clothing Defense value: 2."
+    },
+    {
+      "id": "knife",
+      "name": "Knife",
+      "type": "weapon",
+      "price": 0,
+      "damage": "1d4 slash / 1d6 stab",
+      "range": "Melee",
+      "slots": 0,
+      "description": "Enter the final price and other statistics from the rules."
+    },
+    {
+      "id": "lasso",
+      "name": "Lasso",
+      "type": "gear",
+      "price": 0,
+      "description": "Enter the final price from the rules."
+    }
+  ],
+  "modifications": [
+    {
+      "id": "barrel-example",
+      "name": "Barrel Modification (Example)",
+      "price": 5,
+      "slots": 1,
+      "description": "Placeholder modification. No mechanical effect is configured.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "sight-example",
+      "name": "Sight Modification (Example)",
+      "price": 4,
+      "slots": 1,
+      "description": "Placeholder modification. No mechanical effect is configured.",
+      "effects": {},
+      "example": true
+    },
+    {
+      "id": "stock-example",
+      "name": "Stock Modification (Example)",
+      "price": 6,
+      "slots": 1,
+      "description": "Placeholder modification. No mechanical effect is configured.",
+      "effects": {},
+      "example": true
+    }
+  ]
+}

@@ -1,0 +1,1539 @@
+# Dust & Blood — Rules Source File
+# Generated from the existing website script.js so current text and HTML formatting are preserved.
+# HTML inside [HTML] blocks is intentionally retained verbatim.
+# Lines marked as manuscript-needed were already present in the existing site; they are not invented rules.
+
+[PAGE]
+id: overview
+title: Overview
+category: Start Here
+[HTML]
+<h1>Dust &amp; Blood</h1><p class="lead">A traditional Western tabletop roleplaying game about hard choices, difficult journeys, and the lives people build on the frontier.</p>
+<p>This reference organizes the rules text currently available in this conversation into a clean, searchable handbook. Use the sidebar to browse sections or search for a term from the rules.</p>
+<div class="callout"><strong>Compilation note:</strong> This edition includes the complete rules text provided in chat and the additional general rules already discussed. The FilePaste link’s full contents were not retrievable here, so sections whose detailed source text has not been provided are marked as needing the manuscript text.</div>
+<h2 id="quick-reference">Quick Reference</h2><table><thead><tr><th>Rule</th><th>Value</th></tr></thead><tbody><tr><td>Core Scores</td><td>Might, Agility, Condition, Intelligence, Wisdom, Charisma</td></tr><tr><td>Starting Proficiency Bonus</td><td>+2</td></tr><tr><td>Starting Health</td><td>10 + Condition score</td></tr><tr><td>Action Points refreshed</td><td>3 at the start of your active turn</td></tr><tr><td>Saved AP maximum</td><td>12</td></tr><tr><td>Foot movement</td><td>1 AP per 5 feet</td></tr><tr><td>Default Reputation</td><td>0, unless modified by Background or Flaw</td></tr><tr><td>Trait Rank III</td><td>Available from Level 5</td></tr></tbody></table>
+<h2 id="design">Classless Character Design</h2><p>Characters are shaped by Backgrounds, Proficiencies, Traits, Flaws, equipment, and choices in play rather than by traditional classes. A character might develop into a scout, mounted traveler, brawler, field medic, or another archetype through their investments.</p>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: core
+title: Core Scores & Health
+category: Character Rules
+[HTML]
+<h1>Core Scores &amp; Health</h1><p class="lead">Every character has six Core Scores. Add the corresponding modifier to d20 rolls that use that score.</p>
+<h2 id="scores">The Six Core Scores</h2><table><thead><tr><th>Score</th><th>Meaning</th></tr></thead><tbody><tr><td><b>Might</b></td><td>Physical power and strength.</td></tr><tr><td><b>Agility</b></td><td>Speed, coordination, reflexes, and precision.</td></tr><tr><td><b>Condition</b></td><td>Physical toughness and endurance.</td></tr><tr><td><b>Intelligence</b></td><td>Reasoning, knowledge, education, and problem-solving.</td></tr><tr><td><b>Wisdom</b></td><td>Perception, judgment, instincts, and awareness.</td></tr><tr><td><b>Charisma</b></td><td>Personality, influence, confidence, and social ability.</td></tr></tbody></table>
+<h2 id="rolling">Rolling Core Scores</h2><ol><li>Roll 4d6 for one score.</li><li>Discard the lowest die and add the remaining three dice.</li><li>Repeat six times.</li><li>Assign the six results to your Core Scores in any order.</li></ol>
+<h2 id="modifiers">Core Score Modifiers</h2><table><thead><tr><th>Score</th><th>Modifier</th></tr></thead><tbody><tr><td>1</td><td>−5</td></tr><tr><td>2–3</td><td>−4</td></tr><tr><td>4–5</td><td>−3</td></tr><tr><td>6–7</td><td>−2</td></tr><tr><td>8–9</td><td>−1</td></tr><tr><td>10–11</td><td>+0</td></tr><tr><td>12–13</td><td>+1</td></tr><tr><td>14–15</td><td>+2</td></tr><tr><td>16–17</td><td>+3</td></tr><tr><td>18</td><td>+4</td></tr></tbody></table>
+<h2 id="health">Health</h2><p>At character creation, starting Health is <b>10 + your Condition score</b>. Each time your character gains a level, they gain an additional <b>1d6 Health</b>, unless a Trait or another ability changes how Health is gained.</p>
+<h2 id="defense">Defense Bonus (DB)</h2><p>Your Defense Bonus is determined by the Defense Points (DP) provided by equipped clothing. Add the DP of each equipped clothing item together to determine your DB.</p><div class="callout"><strong>Example:</strong> A traveler’s shirt provides 7 DP, pants provide 5 DP, and a hat provides 2 DP. Together, they provide DB 14.</div>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: proficiencies
+title: Proficiencies
+category: Character Rules
+[HTML]
+<h1>Proficiencies</h1><p class="lead">Proficiency represents training or specialized experience in a skill, tool, weapon, or saving throw.</p>
+<h2 id="using">Using Proficiency</h2><p>When you attempt an action you are proficient in, add your Proficiency Bonus (PB) to the roll alongside the relevant Core Score modifier. For example, a Ranch Hand proficient in Animal Handling adds PB to checks involving handling or calming animals.</p><p>A character without the relevant proficiency still makes the check using the appropriate Core Score modifier, unless a specific rule says otherwise.</p>
+<h2 id="bonus">Proficiency Bonus</h2><p>All characters begin with <b>PB +2</b>. The bonus represents overall experience and increases with progression; it is not determined by how many proficiencies a character has.</p><div class="callout"><strong>Important:</strong> Add PB only once per roll, even if more than one proficiency applies, unless a specific rule states otherwise.</div>
+<h2 id="types">Types of Proficiency</h2><p>Proficiencies can cover skills, tools, weapons, or saving throws. Backgrounds grant the proficiencies listed in their entries. Other proficiencies may be developed through character advancement where permitted by the rules.</p>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: checks
+title: Checks & Saves
+category: Character Rules
+[HTML]
+<h1>Checks &amp; Saves</h1><p class="lead">Use a Core Score check when the outcome of an attempted action is uncertain and the result matters.</p><h2 id="check">Making a Check</h2><p>Roll a d20 and add the relevant Core Score modifier. If the character is proficient in the applicable skill or activity, add PB once. The Game Master determines the appropriate score and whether proficiency applies.</p><h2 id="difficulty">Difficulty Classes</h2><p>When a rule gives a Difficulty Class (DC), the check succeeds if the total meets or exceeds that DC. Some specific rules call for a saving throw or another opposed check instead.</p><div class="callout"><strong>Playtest note:</strong> Use the exact DC and check type stated by the individual rule. The full general DC ladder was not included in the text shared here.</div>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: creation
+title: Character Creation
+category: Character Rules
+[HTML]
+<h1>Character Creation</h1><p class="lead">Build a character through ability scores, Background, equipment, Traits, and Flaws.</p><h2 id="steps">Creation Steps</h2><ol><li>Roll six Core Scores using 4d6, dropping the lowest die each time, then assign the results in any order.</li><li>Calculate the modifier for each Core Score.</li><li>Choose a Background and record its Proficiencies, capabilities, drawbacks, and any starting Reputation or debt.</li><li>Choose the Background starting kit or starting money.</li><li>Calculate starting Health as 10 + Condition.</li><li>Calculate DB from the Defense Points of equipped clothing.</li><li>Record starting PB +2.</li><li>Choose Traits and Flaws using the Character Point rules supplied by the game.</li><li>Record alignment if required by the chosen Background.</li></ol>
+<h2 id="cp">Character Points</h2><p>Dust &amp; Blood uses a classless Trait and Flaw system. Traits cost CP and may have multiple ranks; Flaws grant CP in exchange for meaningful disadvantages. Additional CP gained at later levels can be spent on character options allowed by the rules.</p><h2 id="rank-limits">Trait Rank Limits</h2><p>Ranks must be purchased in order: Rank I before Rank II, and Rank II before Rank III. At Level 1, only Trait Ranks I and II are available. Rank III becomes available at Level 5.</p><h2 id="choice">Meaningful Trade-offs</h2><p>Some Traits may cap or limit other Traits. For example, the supplied draft gives Sprinter II as an example that might cap Sneak at Rank I. These limits encourage specialization rather than allowing every character to master everything.</p>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: backgrounds
+title: Backgrounds
+category: Character Rules
+[HTML]
+<h1>Backgrounds</h1><p class="lead">A Background represents the occupation, upbringing, or way of life that shaped a character before the game began.</p>
+<h2 id="ranch-hand">Ranch Hand</h2><p>Has spent significant time working with livestock and horses.</p><p><b>Proficiencies:</b> Animal Handling, Riding.</p><p><b>Capability:</b> Hard Worker (+2 Might).</p><p><b>Cons:</b> Rough Hands (−3 Agility); Lost Opportunity (−2 Intelligence).</p><p><b>Starting money:</b> $10. <b>Kit:</b> Work clothes, bedroll, canteen, rope, work knife, saddle, bridle.</p>
+<h2 id="blacksmith">Blacksmith</h2><p>Has trained in working and shaping metal.</p><p><b>Proficiencies:</b> Blacksmithing, Metalworking.</p><p><b>Cons:</b> Rough Hands (−3 Agility); Socially Weird (−1 Charisma).</p><p><b>Starting money:</b> $25. <b>Kit:</b> Work clothes, apron, blacksmith hammer, tongs, small tool kit, whetstone.</p>
+<h2 id="lawman">Lawman</h2><p>The supplied heading says “Lawyer,” but the description and kit refer to a Lawman; this reference uses Lawman.</p><p><b>Proficiencies:</b> Investigation, Intimidation.</p><p><b>Capability:</b> +5 starting Reputation.</p><p><b>Restriction:</b> Must have Lawful alignment.</p><p><b>Starting money:</b> $30. <b>Kit:</b> Lawman’s badge, uniform or coat, handcuffs, notebook, writing supplies, watch.</p>
+<h2 id="gambler">Gambler</h2><p>Has spent significant time playing games of chance.</p><p><b>Proficiencies:</b> Gambling, Deception.</p><p><b>Cons:</b> Owes $20 in starting debt.</p><p><b>Starting money:</b> $15. <b>Kit:</b> Decent clothes, deck of cards, dice, small notebook, flask.</p>
+<h2 id="outlaw">Outlaw</h2><p>Has survived outside the protection of lawful society.</p><p><b>Proficiencies:</b> Stealth, Survival.</p><p><b>Cons:</b> Wanted Man; starting Reputation −5.</p><p><b>Starting money:</b> $5. <b>Kit:</b> Worn clothes, bedroll, canteen, rope, knife, lockpicks.</p>
+<h2 id="doctor">Doctor</h2><p>Has received formal medical training.</p><p><b>Proficiencies:</b> Medicine, Herbalism.</p><p><b>Cons:</b> Pacifist; disadvantage on firearm attacks.</p><p><b>Starting money:</b> $75. <b>Kit:</b> Doctor’s bag, medical tools, bandages, antiseptic, surgical knife, notebook, watch.</p>
+<h2 id="money-table">Starting Money</h2><table><thead><tr><th>Background</th><th>Money</th><th>Reason supplied</th></tr></thead><tbody><tr><td>Ranch Hand</td><td>$10</td><td>Low-paid work, often partly compensated with food or lodging.</td></tr><tr><td>Blacksmith</td><td>$25</td><td>Skilled trade with higher wages.</td></tr><tr><td>Lawman</td><td>$30</td><td>Stable paid position.</td></tr><tr><td>Gambler</td><td>$15</td><td>Unstable income.</td></tr><tr><td>Outlaw</td><td>$5</td><td>Constantly moving makes saving difficult.</td></tr><tr><td>Doctor</td><td>$75</td><td>Highly skilled professional.</td></tr></tbody></table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: leveling
+title: Levels & XP
+category: Character Rules
+[HTML]
+<h1>Levels &amp; Experience</h1><p class="lead">Characters earn XP by completing jobs, overcoming challenges, and accomplishing objectives.</p><p>Characters begin at Level 1 with 0 XP. The XP column is the total accumulated XP needed to reach a level, not the amount needed since the previous level. The CP reward is granted once upon reaching that level.</p>
+<h2 id="progression">Level Progression</h2><table><thead><tr><th>Level</th><th>Total XP</th><th>CP reward</th><th>Additional rule</th></tr></thead><tbody><tr><td>1</td><td>0</td><td>0</td><td>Trait Ranks I–II available</td></tr><tr><td>2</td><td>1,000</td><td>+2</td><td>CP cap extended +3</td></tr><tr><td>3</td><td>2,500</td><td>+2</td><td>—</td></tr><tr><td>4</td><td>4,500</td><td>+3</td><td>CP cap extended +6</td></tr><tr><td>5</td><td>7,000</td><td>+3</td><td>Trait Rank III available</td></tr><tr><td>6</td><td>10,000</td><td>+3</td><td>CP cap extended +6</td></tr><tr><td>7</td><td>13,500</td><td>+4</td><td>—</td></tr><tr><td>8</td><td>17,500</td><td>+4</td><td>CP cap extended +6</td></tr><tr><td>9</td><td>22,000</td><td>+4</td><td>—</td></tr><tr><td>10</td><td>27,000</td><td>+5</td><td>—</td></tr><tr><td>11</td><td>33,000</td><td>+5</td><td>CP cap extended +9</td></tr><tr><td>12</td><td>40,000</td><td>+5</td><td>—</td></tr><tr><td>13</td><td>48,000</td><td>+6</td><td>—</td></tr><tr><td>14</td><td>57,000</td><td>+6</td><td>—</td></tr><tr><td>15</td><td>67,000</td><td>+6</td><td>CP cap extended +12</td></tr><tr><td>16</td><td>78,000</td><td>+7</td><td>—</td></tr><tr><td>17</td><td>90,000</td><td>+7</td><td>—</td></tr><tr><td>18</td><td>103,000</td><td>+7</td><td>—</td></tr><tr><td>19</td><td>117,000</td><td>+8</td><td>—</td></tr><tr><td>20</td><td>132,000</td><td>+20</td><td>CP cap extended +15</td></tr></tbody></table>
+<div class="callout"><strong>Draft note:</strong> The CP-cap increases at Levels 4, 6, and 8 are reproduced as supplied, including the repeated +6 entries.</div><h2 id="advancement">Spending CP</h2><p>CP can be invested in new Traits, higher Trait ranks, Ability Score Improvements, Feats, Knowledge, proficiencies, and specialized abilities where those options are available. Exact CP costs belong to the relevant option entry.</p>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: reputation
+title: Reputation
+category: Character Rules
+[HTML]
+<h1>Reputation</h1><p class="lead">Reputation tracks how NPCs perceive and respond to a character. It represents public perception, not necessarily the truth about a character.</p><h2 id="range">Range</h2><p>Reputation ranges from <b>−20 to +20</b>. Characters normally start at 0 unless a Background or Flaw changes it. An Outlaw starts at −5.</p><h2 id="negative">Negative Reputation</h2><p>As Reputation becomes more negative, NPCs may become suspicious, hostile, or unwilling to associate with the character. They might refuse service, deny help, or alert authorities.</p><p>At −20, a character is likely notorious nationwide for extraordinarily infamous actions. Reaching that level requires extreme notoriety; ordinary crimes and everyday misbehavior are not enough.</p><h2 id="positive">Positive Reputation</h2><p>As Reputation becomes more positive, NPCs are increasingly likely to trust, respect, and assist the character. High Reputation may provide better deals, opportunities, and cooperation. At +20, a character is exceptionally respected and may be famous nationwide for extraordinary deeds.</p><h2 id="changing">Changing Reputation</h2><p>Reputation changes through actions, accomplishments, and what other people learn about the character. The Game Master decides how widely events are known and how they affect public standing.</p>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: combat
+title: Action Points & Turns
+category: Combat
+[HTML]
+<h1>Action Points &amp; Turns</h1><p class="lead">Action Points (AP) represent a character’s capacity to act during a combat round.</p><h2 id="refresh">Regaining AP</h2><ul><li>At the start of your active turn, regenerate <b>3 AP</b>.</li><li>You may save unused AP, up to a maximum of <b>12 saved AP</b>.</li></ul><h2 id="movement">Movement</h2><p>Moving on foot costs <b>1 AP per 5 feet</b>.</p><h2 id="live-combat">Live Combat</h2><p>Under the Live Combat rule, saved AP can be spent on an inactive turn to move, take cover, reload, or interact. Saved AP cannot be used to make firearm attacks during another character’s turn.</p><h2 id="other-actions">Actions and turns</h2><p>Specific action costs and combat resolution depend on the individual action rules. Use the relevant entry in the full manuscript for details not included in the text available here.</p>
+[END HTML]
+[END PAGE]
+
+
+
+
+
+[PAGE]
+id: equipment
+title: Starting Money & Kits
+category: Equipment
+[HTML]
+<h1>Starting Money &amp; Kits</h1><p class="lead">At character creation, choose either your Background’s premade starting kit or its listed starting money.</p><h2 id="money">Starting Money</h2><table><thead><tr><th>Background</th><th>Starting money</th><th>Reason</th></tr></thead><tbody><tr><td>Ranch Hand</td><td>$10</td><td>Low-paid work, often partly compensated with food or lodging.</td></tr><tr><td>Blacksmith</td><td>$25</td><td>Skilled trade with higher wages.</td></tr><tr><td>Lawman</td><td>$30</td><td>Stable paid position.</td></tr><tr><td>Gambler</td><td>$15</td><td>Unstable income.</td></tr><tr><td>Outlaw</td><td>$5</td><td>Constant movement makes saving difficult.</td></tr><tr><td>Doctor</td><td>$75</td><td>Highly skilled professional.</td></tr></tbody></table><h2 id="kits">Starting Kits</h2><table><thead><tr><th>Background</th><th>Kit</th></tr></thead><tbody><tr><td>Ranch Hand</td><td>Work clothes, bedroll, canteen, rope, work knife, saddle, bridle.</td></tr><tr><td>Blacksmith</td><td>Work clothes, apron, blacksmith hammer, tongs, small tool kit, whetstone.</td></tr><tr><td>Lawman</td><td>Lawman’s badge, uniform/coat, handcuffs, notebook, writing supplies, watch.</td></tr><tr><td>Gambler</td><td>Decent clothes, deck of cards, dice, small notebook, flask.</td></tr><tr><td>Outlaw</td><td>Worn clothes, bedroll, canteen, rope, knife, lockpicks.</td></tr><tr><td>Doctor</td><td>Doctor’s bag, medical tools, bandages, antiseptic, surgical knife, notebook, watch.</td></tr></tbody></table>
+[END HTML]
+[END PAGE]
+
+
+[PAGE]
+id: mounts
+title: Mounts
+category: Animals
+[HTML]
+<h1>Mounts</h1>
+
+<p>Mounts are a big part of <em>Dust &amp; Blood</em>, but live mounts such as oxen and horses require their own sheet.</p>
+
+<h1>Horses</h1>
+
+<h2>1. Horse Creation</h2>
+<p>Create a horse using these steps:</p>
+<ol>
+<li>Choose a breed and apply its attribute bonuses.</li>
+<li>Roll 1d6 for individual quality.</li>
+<li>Choose or roll its temperament.</li>
+<li>Calculate HP, DB, speed, stamina, and carrying capacity.</li>
+<li>Choose its training.</li>
+<li>Record its identification, equipment, and price.</li>
+</ol>
+<p>Horses use the same six attributes and modifiers as characters: Might, Agility, Condition, Intelligence, Wisdom, and Charisma.</p>
+
+<h3>Individual Quality</h3>
+<p>Roll 1d6 after applying breed bonuses.</p>
+<table>
+<thead><tr><th>Roll</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Primary attribute -1</td></tr>
+<tr><td>2</td><td>Secondary attribute -1</td></tr>
+<tr><td>3–4</td><td>No change</td></tr>
+<tr><td>5</td><td>Primary attribute +1</td></tr>
+<tr><td>6</td><td>Primary attribute +1 and secondary attribute +1</td></tr>
+</tbody>
+</table>
+<p>The GM determines which attributes are primary and secondary for each breed. This roll can change each attribute by no more than 1.</p>
+
+<h2>2. Horse Breeds</h2>
+<table>
+<thead><tr><th>Breed</th><th>Attribute Bonuses</th><th>Specialization</th></tr></thead>
+<tbody>
+<tr><td>Quarter Horse</td><td>Might +1, Agility +1, Condition +1</td><td>Ranch work</td></tr>
+<tr><td>Thoroughbred</td><td>Agility +2, Condition +1</td><td>Speed and pursuit</td></tr>
+<tr><td>Paint Horse</td><td>Agility +1, Condition +1, Wisdom +1</td><td>General riding and stock work</td></tr>
+<tr><td>Saddlebred</td><td>Agility +2, Charisma +1</td><td>Responsive riding</td></tr>
+<tr><td>Draft Horse</td><td>Might +2, Condition +2, Wisdom +1</td><td>Heavy hauling</td></tr>
+</tbody>
+</table>
+<p>Breed bonuses represent natural abilities, not training.</p>
+
+<h2>3. Horse Statistics</h2>
+
+<h3>Hit Points (HP)</h3>
+<p><strong>HP = 10 + Condition modifier + Breed HP bonus</strong></p>
+<table>
+<thead><tr><th>Horse Type</th><th>HP Bonus</th></tr></thead>
+<tbody>
+<tr><td>Light riding horse</td><td>+0</td></tr>
+<tr><td>Standard riding horse</td><td>+2</td></tr>
+<tr><td>Heavy riding horse</td><td>+3</td></tr>
+<tr><td>Draft horse</td><td>+5</td></tr>
+</tbody>
+</table>
+<p>At 0 HP, a horse is incapacitated and cannot be ridden or work normally.</p>
+
+<h3>Defense Bonus (DB)</h3>
+<p><strong>DB = 10 + Agility modifier + Armor DP</strong></p>
+<p>Armor DP comes from protective equipment; ordinary saddles and bridles provide none.</p>
+
+<h3>Speed</h3>
+<table>
+<thead><tr><th>Gait</th><th>Base Speed</th></tr></thead>
+<tbody>
+<tr><td>Walking</td><td>20 ft./round</td></tr>
+<tr><td>Trotting</td><td>30 ft./round</td></tr>
+<tr><td>Cantering</td><td>40 ft./round</td></tr>
+<tr><td>Galloping</td><td>60 ft./round</td></tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Thoroughbred:</strong> +10 ft. to cantering and galloping.</li>
+<li><strong>Draft horse:</strong> -10 ft. to cantering and galloping.</li>
+<li><strong>Other breeds:</strong> No change.</li>
+</ul>
+<p>Extended fast travel may require stamina checks.</p>
+
+<h3>Stamina</h3>
+<ul>
+<li><strong>Maximum Stamina:</strong> 6 + Condition modifier.</li>
+<li><strong>Strenuous travel or heavy labor:</strong> -1 Stamina per hour.</li>
+<li><strong>Galloping for a full minute:</strong> An additional -1 Stamina.</li>
+<li><strong>At 0 Stamina:</strong> Cannot gallop and suffers -2 to physical checks.</li>
+<li><strong>Rest:</strong> Recover 2 Stamina per hour with water and reasonable conditions.</li>
+<li><strong>Full night's rest:</strong> Restore all Stamina with adequate food, water, and shelter.</li>
+</ul>
+<p>The GM may adjust costs for terrain, weather, workload, and condition.</p>
+
+<h3>Carrying Capacity</h3>
+<table>
+<thead><tr><th>Might Modifier</th><th>Comfortable Load</th></tr></thead>
+<tbody>
+<tr><td>-1 or lower</td><td>100 lb.</td></tr>
+<tr><td>+0</td><td>150 lb.</td></tr>
+<tr><td>+1</td><td>200 lb.</td></tr>
+<tr><td>+2</td><td>250 lb.</td></tr>
+<tr><td>+3</td><td>300 lb.</td></tr>
+<tr><td>+4</td><td>350 lb.</td></tr>
+</tbody>
+</table>
+<p>These are provisional game values, not real-world load recommendations. Smaller, injured, or exhausted horses may have lower limits.</p>
+<p>Exceeding the comfortable load reduces speed by 10 ft. and costs an additional 1 Stamina per hour. A horse should not carry more than 150% of its comfortable load.</p>
+
+<h2>4. Temperament</h2>
+<table>
+<thead><tr><th>Temperament</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Calm</td><td>+2 to remain steady around sudden noises and unfamiliar situations</td></tr>
+<tr><td>Steady</td><td>+1 to routine handling</td></tr>
+<tr><td>Nervous</td><td>-2 to remain calm around sudden threats</td></tr>
+<tr><td>Stubborn</td><td>-2 to accept unfamiliar commands</td></tr>
+<tr><td>Spirited</td><td>+2 to responsiveness and energetic movement; -1 to remain calm when frightened</td></tr>
+<tr><td>Aggressive</td><td>-2 to routine handling around unfamiliar people or animals</td></tr>
+</tbody>
+</table>
+<p>Apply modifiers only when relevant.</p>
+
+<h2>5. Training</h2>
+<table>
+<thead><tr><th>Training</th><th>Capability</th></tr></thead>
+<tbody>
+<tr><td>Untrained</td><td>No reliable riding or work training</td></tr>
+<tr><td>Riding</td><td>Responds to ordinary riding commands</td></tr>
+<tr><td>Ranch Work</td><td>Performs routine ranch tasks, including moving cattle</td></tr>
+<tr><td>Pack Horse</td><td>Carries supplies and follows a handler</td></tr>
+<tr><td>War-Trained</td><td>Tolerates combat noise and responds under battlefield pressure</td></tr>
+<tr><td>Racing</td><td>Trained for speed, pacing, and competition</td></tr>
+</tbody>
+</table>
+<p>A horse may have multiple training types with GM approval. Training does not eliminate fear, pain, or exhaustion.</p>
+
+<h2>6. Riding and Handling</h2>
+<p>When a task is difficult or dangerous, the GM may call for an Animal Handling check using the normal check rules.</p>
+<table>
+<thead><tr><th>Task</th><th>Difficulty</th></tr></thead>
+<tbody>
+<tr><td>Mount a calm, trained horse</td><td>5</td></tr>
+<tr><td>Control ordinary travel</td><td>8</td></tr>
+<tr><td>Navigate difficult terrain</td><td>10</td></tr>
+<tr><td>Calm a frightened horse</td><td>12</td></tr>
+<tr><td>Ride through nearby gunfire</td><td>15</td></tr>
+<tr><td>Control an unfamiliar, panicking horse</td><td>18</td></tr>
+<tr><td>Perform an exceptional maneuver</td><td>20</td></tr>
+</tbody>
+</table>
+<p>These are suggested difficulties. Failure does not automatically cause a fall; consequences depend on the situation.</p>
+<ul>
+<li><strong>Mounting:</strong> No check for a cooperative horse under normal conditions.</li>
+<li><strong>Dismounting:</strong> No check under normal conditions.</li>
+<li><strong>Riding armed:</strong> Difficult shots or riding at a gallop may require checks or penalties.</li>
+<li><strong>Falling:</strong> The GM may call for an Agility check to land safely; failure uses normal falling-damage rules.</li>
+</ul>
+
+<h3>Fear and Panic</h3>
+<p>Gunfire, predators, fires, injuries, and sudden threats may trigger a Wisdom-based check using the horse's Wisdom modifier.</p>
+<p>On success, the horse remains under control. On failure, it may hesitate, flee, rear, or resist commands. Temperament, training, and threat severity affect the outcome. Appropriate combat training may grant a bonus against gunfire-related fear.</p>
+
+<h2>7. Injuries and Care</h2>
+<table>
+<thead><tr><th>Condition</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Exhausted</td><td>Cannot gallop; -2 to physical checks</td></tr>
+<tr><td>Limping</td><td>Speed reduced by 10 ft.</td></tr>
+<tr><td>Incapacitated</td><td>Cannot be ridden or work normally</td></tr>
+<tr><td>Frightened</td><td>May flee or resist commands</td></tr>
+<tr><td>Sick</td><td>May suffer Condition-check and Stamina-recovery penalties</td></tr>
+</tbody>
+</table>
+<p>The GM determines injury severity, duration, and treatment. HP recovers through rest and appropriate care under the game's healing rules. Serious injuries may require veterinary knowledge or professional treatment.</p>
+<p>Horses need regular food, water, rest, grooming, and appropriate hoof care. Neglect can cause sickness and impair recovery. The GM may handle routine care narratively unless survival or ranch management is central to the campaign.</p>
+
+<h2>8. Horse Equipment and Prices</h2>
+<table>
+<thead><tr><th>Item</th><th>Price</th><th>Purpose</th></tr></thead>
+<tbody>
+<tr><td>Basic Horse</td><td>$30</td><td>Ordinary horse with minimal specialized training</td></tr>
+<tr><td>Trained Horse</td><td>$50</td><td>Trained for one common activity</td></tr>
+<tr><td>Quality Horse</td><td>$80</td><td>Strong natural abilities and reliable temperament</td></tr>
+<tr><td>Exceptional Horse</td><td>$100+</td><td>Outstanding ability, training, or breeding</td></tr>
+<tr><td>Saddle</td><td>$15</td><td>Riding equipment</td></tr>
+<tr><td>Bridle</td><td>$3</td><td>Riding control</td></tr>
+<tr><td>Saddlebag</td><td>$3</td><td>Carries supplies</td></tr>
+<tr><td>Feed Bag</td><td>$2</td><td>Holds feed</td></tr>
+<tr><td>Hay Bale</td><td>$1</td><td>One unit of feed</td></tr>
+<tr><td>Horse Blanket</td><td>$3</td><td>Warmth in cold conditions</td></tr>
+<tr><td>Horseshoes</td><td>$4</td><td>Hoof protection when appropriate</td></tr>
+<tr><td>Hitching Rope</td><td>$1</td><td>Secures a horse</td></tr>
+<tr><td>Grooming Kit</td><td>$3</td><td>Routine grooming</td></tr>
+</tbody>
+</table>
+<p>Prices are starting values in the game's dollar economy. Breed, age, condition, temperament, and training may change a horse's price. Equipment is purchased separately unless included in the sale.</p>
+
+<h2>9. Horse Character Sheet</h2>
+<h3>Identification</h3>
+<ul>
+<li>Name:</li>
+<li>Owner:</li>
+<li>Breed:</li>
+<li>Sex:</li>
+<li>Age:</li>
+<li>Color and Markings:</li>
+<li>Temperament:</li>
+<li>Training:</li>
+</ul>
+<h3>Attributes</h3>
+<ul>
+<li>Might:</li>
+<li>Agility:</li>
+<li>Condition:</li>
+<li>Intelligence:</li>
+<li>Wisdom:</li>
+<li>Charisma:</li>
+</ul>
+<h3>Statistics</h3>
+<ul>
+<li>Maximum HP:</li>
+<li>Current HP:</li>
+<li>DB:</li>
+<li>Walking Speed:</li>
+<li>Trotting Speed:</li>
+<li>Cantering Speed:</li>
+<li>Galloping Speed:</li>
+<li>Maximum Stamina:</li>
+<li>Current Stamina:</li>
+<li>Comfortable Carrying Capacity:</li>
+<li>Current Load:</li>
+</ul>
+<h3>Equipment</h3>
+<ul>
+<li>Saddle:</li>
+<li>Bridle:</li>
+<li>Saddlebags:</li>
+<li>Horseshoes:</li>
+<li>Other Equipment:</li>
+</ul>
+<h3>History and Condition</h3>
+<ul>
+<li>Injuries and Illnesses:</li>
+<li>Training History:</li>
+<li>Behavioral Notes:</li>
+<li>Purchase Price:</li>
+<li>Other Notes:</li>
+</ul>
+
+<h2>10. Horse Core Rules</h2>
+<ul>
+<li>Horses use the same six attributes and modifier rules as characters.</li>
+<li>Breed determines natural specialization; individual quality distinguishes horses of the same breed.</li>
+<li>Temperament affects behavior, while training determines reliable capabilities.</li>
+<li>HP, DB, speed, stamina, and carrying capacity determine physical performance.</li>
+<li>Equipment is separate unless included in the purchase price.</li>
+<li>The GM determines when checks are required and what failure means.</li>
+<li>Horses can become frightened, exhausted, injured, or sick and require proper care.</li>
+<li>All horse mechanics must remain compatible with the game's attributes, Action Points, combat, and equipment systems.</li>
+</ul>
+
+<h1>Oxen</h1>
+
+<h2>1. Oxen Creation</h2>
+<p>Create an ox using these steps:</p>
+<ol>
+<li>Choose a breed and apply its attribute bonuses.</li>
+<li>Roll 1d6 for individual quality.</li>
+<li>Choose or roll its temperament.</li>
+<li>Calculate HP, DB, speed, stamina, and pulling capacity.</li>
+<li>Record its training, identification, equipment, and price.</li>
+</ol>
+<p>Oxen use the same six attributes and modifiers as characters: Might, Agility, Condition, Intelligence, Wisdom, and Charisma.</p>
+<p>Oxen are primarily working animals used for pulling wagons, plowing fields, and hauling heavy supplies. They can be trained to follow commands and work in teams but are not suitable for ordinary riding.</p>
+
+<h3>Individual Quality</h3>
+<p>Roll 1d6 after applying breed bonuses.</p>
+<table>
+<thead><tr><th>Roll</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Primary attribute -1</td></tr>
+<tr><td>2</td><td>Secondary attribute -1</td></tr>
+<tr><td>3–4</td><td>No change</td></tr>
+<tr><td>5</td><td>Primary attribute +1</td></tr>
+<tr><td>6</td><td>Primary attribute +1 and secondary attribute +1</td></tr>
+</tbody>
+</table>
+<p>The GM determines primary and secondary attributes for each breed. Each attribute can change by no more than 1 from this roll.</p>
+
+<h2>2. Ox Breeds</h2>
+<table>
+<thead><tr><th>Breed</th><th>Attribute Bonuses</th><th>Specialization</th></tr></thead>
+<tbody>
+<tr><td>Hereford</td><td>Might +1, Condition +1</td><td>General farm work</td></tr>
+<tr><td>Angus</td><td>Condition +2, Might +1</td><td>Endurance and steady labor</td></tr>
+<tr><td>Texas Longhorn</td><td>Agility +1, Wisdom +1</td><td>Rough terrain and frontier conditions</td></tr>
+<tr><td>Charolais</td><td>Might +2, Condition +1</td><td>Heavy pulling</td></tr>
+<tr><td>Highland</td><td>Condition +1, Wisdom +1</td><td>Cold weather and rugged terrain</td></tr>
+</tbody>
+</table>
+<p>These are proposed game bonuses representing breed specialization. Oxen of other breeds can be added using the same system.</p>
+
+<h2>3. Ox Statistics</h2>
+
+<h3>Hit Points (HP)</h3>
+<p><strong>HP = 10 + Condition modifier + Size HP bonus</strong></p>
+<table>
+<thead><tr><th>Size</th><th>HP Bonus</th></tr></thead>
+<tbody>
+<tr><td>Small</td><td>+0</td></tr>
+<tr><td>Standard</td><td>+3</td></tr>
+<tr><td>Large</td><td>+5</td></tr>
+</tbody>
+</table>
+<p>At 0 HP, an ox is incapacitated and cannot work normally.</p>
+
+<h3>Defense Bonus (DB)</h3>
+<p><strong>DB = 10 + Agility modifier + Armor DP</strong></p>
+<p>Armor DP comes from protective equipment. Ordinary yokes and harnesses provide no armor.</p>
+
+<h3>Speed</h3>
+<table>
+<thead><tr><th>Movement</th><th>Speed</th></tr></thead>
+<tbody>
+<tr><td>Walking</td><td>20 ft./round</td></tr>
+<tr><td>Working Pace</td><td>15 ft./round</td></tr>
+<tr><td>Fast Walk</td><td>25 ft./round</td></tr>
+</tbody>
+</table>
+<p>Oxen cannot gallop like horses. Their speed while pulling a load depends on the load, terrain, and condition of the animal.</p>
+
+<h3>Stamina</h3>
+<ul>
+<li><strong>Maximum Stamina:</strong> 6 + Condition modifier.</li>
+<li><strong>Heavy labor:</strong> -1 Stamina per hour.</li>
+<li><strong>Sustained maximum-effort pulling:</strong> An additional -1 Stamina per hour.</li>
+<li><strong>At 0 Stamina:</strong> The ox becomes exhausted, cannot perform heavy pulling, and suffers -2 to physical checks.</li>
+<li><strong>Rest:</strong> Recover 2 Stamina per hour with water and reasonable conditions.</li>
+<li><strong>Full night's rest:</strong> Restore all Stamina with adequate food, water, and shelter.</li>
+</ul>
+<p>The GM may adjust stamina costs for terrain, weather, and workload.</p>
+
+<h3>Pulling Capacity</h3>
+<p>Pulling capacity determines the weight an ox can move using a suitable yoke or harness. It represents the total load being pulled, not the weight carried on the animal's back.</p>
+<table>
+<thead><tr><th>Might Modifier</th><th>Comfortable Pulling Load</th></tr></thead>
+<tbody>
+<tr><td>-1 or lower</td><td>500 lb.</td></tr>
+<tr><td>+0</td><td>750 lb.</td></tr>
+<tr><td>+1</td><td>1,000 lb.</td></tr>
+<tr><td>+2</td><td>1,250 lb.</td></tr>
+<tr><td>+3</td><td>1,500 lb.</td></tr>
+<tr><td>+4</td><td>1,750 lb.</td></tr>
+</tbody>
+</table>
+<p>These are provisional game-balance values, not real-world hauling recommendations.</p>
+<ul>
+<li>Difficult terrain, steep slopes, mud, and poor weather can reduce pulling capacity.</li>
+<li>Loads above comfortable capacity require GM approval and increase Stamina expenditure.</li>
+<li>An ox should not exceed 150% of its comfortable pulling capacity.</li>
+<li>Two oxen working as a team can pull more than one, but their combined capacity depends on training, harnessing, and coordination.</li>
+</ul>
+
+<h2>4. Temperament</h2>
+<table>
+<thead><tr><th>Temperament</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Calm</td><td>+2 to remain steady around sudden noises and unfamiliar situations</td></tr>
+<tr><td>Steady</td><td>+1 to routine handling</td></tr>
+<tr><td>Nervous</td><td>-2 to remain calm around sudden threats</td></tr>
+<tr><td>Stubborn</td><td>-2 to accept unfamiliar commands</td></tr>
+<tr><td>Spirited</td><td>+2 to responsiveness; -1 to remain calm when frightened</td></tr>
+<tr><td>Aggressive</td><td>-2 to routine handling around unfamiliar people or animals</td></tr>
+</tbody>
+</table>
+<p>Apply modifiers only when relevant.</p>
+
+<h2>5. Training</h2>
+<table>
+<thead><tr><th>Training</th><th>Capability</th></tr></thead>
+<tbody>
+<tr><td>Untrained</td><td>No reliable working commands</td></tr>
+<tr><td>Draft Work</td><td>Pulls carts and wagons using suitable harnesses</td></tr>
+<tr><td>Plowing</td><td>Trained to pull agricultural equipment</td></tr>
+<tr><td>Team-Trained</td><td>Works alongside another draft animal</td></tr>
+<tr><td>Pack-Trained</td><td>Accepts a limited load and follows a handler</td></tr>
+<tr><td>Road-Trained</td><td>Pulls loads along established roads and routes</td></tr>
+</tbody>
+</table>
+<p>Training does not eliminate fear, pain, or exhaustion. Riding is not a standard capability.</p>
+
+<h2>6. Handling and Work Checks</h2>
+<p>The GM may call for an Animal Handling check when controlling an ox in difficult or dangerous circumstances.</p>
+<table>
+<thead><tr><th>Task</th><th>Difficulty</th></tr></thead>
+<tbody>
+<tr><td>Lead a calm, trained ox</td><td>5</td></tr>
+<tr><td>Direct ordinary farm work</td><td>8</td></tr>
+<tr><td>Guide an ox through difficult terrain</td><td>10</td></tr>
+<tr><td>Calm a frightened ox</td><td>12</td></tr>
+<tr><td>Start a reluctant ox pulling</td><td>15</td></tr>
+<tr><td>Control an unfamiliar, panicking ox</td><td>18</td></tr>
+<tr><td>Coordinate a difficult team maneuver</td><td>20</td></tr>
+</tbody>
+</table>
+<p>These are suggested difficulties. Failure may cause an ox to stop, resist commands, change direction, or disrupt a team.</p>
+
+<h3>Fear and Panic</h3>
+<p>Gunfire, predators, fires, and sudden threats may trigger a Wisdom-based check using the ox's Wisdom modifier. On failure, the ox may hesitate, flee, or resist commands. Training and temperament influence the outcome.</p>
+
+<h2>7. Injuries and Care</h2>
+<table>
+<thead><tr><th>Condition</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Exhausted</td><td>Cannot perform heavy pulling; -2 to physical checks</td></tr>
+<tr><td>Limping</td><td>Speed reduced by 10 ft.</td></tr>
+<tr><td>Incapacitated</td><td>Cannot work normally</td></tr>
+<tr><td>Frightened</td><td>May flee or resist commands</td></tr>
+<tr><td>Sick</td><td>May suffer Condition-check and Stamina-recovery penalties</td></tr>
+</tbody>
+</table>
+<p>The GM determines injury severity and treatment. HP recovers through rest and appropriate care under the game's healing rules. Serious injuries may require veterinary knowledge or professional treatment.</p>
+<p>Oxen require regular food, water, rest, grooming, hoof care, and properly fitted yokes or harnesses. Neglect can cause sickness and impair recovery.</p>
+
+<h2>8. Equipment and Prices</h2>
+<table>
+<thead><tr><th>Item</th><th>Price</th><th>Purpose</th></tr></thead>
+<tbody>
+<tr><td>Basic Ox</td><td>$25</td><td>Ordinary working ox</td></tr>
+<tr><td>Trained Ox</td><td>$45</td><td>Trained for one common task</td></tr>
+<tr><td>Quality Ox</td><td>$70</td><td>Strong and reliable working animal</td></tr>
+<tr><td>Exceptional Ox</td><td>$100+</td><td>Outstanding strength or specialized training</td></tr>
+<tr><td>Yoke</td><td>$8</td><td>Connects oxen to a load or each other</td></tr>
+<tr><td>Draft Harness</td><td>$10</td><td>Connects an ox to suitable equipment</td></tr>
+<tr><td>Pack Saddle</td><td>$8</td><td>Allows supplies to be carried</td></tr>
+<tr><td>Feed Bag</td><td>$2</td><td>Holds feed</td></tr>
+<tr><td>Hay Bale</td><td>$1</td><td>One unit of feed</td></tr>
+<tr><td>Grooming Kit</td><td>$3</td><td>Routine grooming</td></tr>
+<tr><td>Hitching Rope</td><td>$1</td><td>Secures an ox</td></tr>
+</tbody>
+</table>
+<p>Prices are proposed starting values in the game's dollar economy. Breed, age, condition, training, and temperament may affect purchase price. Equipment is purchased separately unless included in the sale.</p>
+
+<h2>9. Ox Character Sheet</h2>
+<h3>Identification</h3>
+<ul>
+<li>Name:</li>
+<li>Owner:</li>
+<li>Breed:</li>
+<li>Sex:</li>
+<li>Age:</li>
+<li>Color and Markings:</li>
+<li>Temperament:</li>
+<li>Training:</li>
+</ul>
+<h3>Attributes</h3>
+<ul>
+<li>Might:</li>
+<li>Agility:</li>
+<li>Condition:</li>
+<li>Intelligence:</li>
+<li>Wisdom:</li>
+<li>Charisma:</li>
+</ul>
+<h3>Statistics</h3>
+<ul>
+<li>Maximum HP:</li>
+<li>Current HP:</li>
+<li>DB:</li>
+<li>Walking Speed:</li>
+<li>Working Pace:</li>
+<li>Fast Walk:</li>
+<li>Maximum Stamina:</li>
+<li>Current Stamina:</li>
+<li>Comfortable Pulling Capacity:</li>
+<li>Current Load:</li>
+</ul>
+<h3>Equipment</h3>
+<ul>
+<li>Yoke:</li>
+<li>Harness:</li>
+<li>Pack Saddle:</li>
+<li>Other Equipment:</li>
+</ul>
+<h3>History and Condition</h3>
+<ul>
+<li>Injuries and Illnesses:</li>
+<li>Training History:</li>
+<li>Team Partner:</li>
+<li>Behavioral Notes:</li>
+<li>Purchase Price:</li>
+<li>Other Notes:</li>
+</ul>
+
+<h2>10. Ox Core Rules</h2>
+<ul>
+<li>Oxen use the same six attributes and modifier rules as characters.</li>
+<li>Breed and individual quality determine natural differences.</li>
+<li>Temperament affects behavior; training determines reliable working capabilities.</li>
+<li>HP, DB, speed, stamina, and pulling capacity determine physical performance.</li>
+<li>Pulling capacity applies to the total load being moved.</li>
+<li>Teamwork requires suitable training and equipment.</li>
+<li>Oxen can become frightened, exhausted, injured, or sick and require proper care.</li>
+<li>All mechanics must remain compatible with the game's attributes, Action Points, combat, and equipment systems.</li>
+</ul>
+[END HTML]
+[END PAGE]
+
+
+[PAGE]
+id: survival
+title: Survival & Downtime
+category: Survival
+[HTML]
+<h1>Survival &amp; Downtime</h1><p class="lead">This section is reserved for frontier survival, gathering, crafting, healing, and downtime rules from the full manuscript.</p><p>The current notes establish that Herbalism can support gathering herbs and preparing Tonics, and that characters may develop specialized skills through Traits rather than classes.</p><div class="callout"><strong>Text needed:</strong> Paste the full survival, crafting, and downtime entries to replace this placeholder with the original rules.</div>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: glossary
+title: Glossary
+category: Reference
+[HTML]
+<h1>Rules Glossary</h1><table><thead><tr><th>Term</th><th>Meaning</th></tr></thead><tbody><tr><td>AP</td><td>Action Points, used to pay for actions.</td></tr><tr><td>ASI</td><td>Ability Score Improvement.</td></tr><tr><td>Background</td><td>An occupation, upbringing, or way of life that shaped a character.</td></tr><tr><td>CP</td><td>Character Points, used to purchase character options.</td></tr><tr><td>DB</td><td>Defense Bonus, based on equipped clothing’s Defense Points.</td></tr><tr><td>DC</td><td>Difficulty Class, the target number for a check or save.</td></tr><tr><td>DP</td><td>Defense Points provided by clothing.</td></tr><tr><td>Flaw</td><td>A meaningful disadvantage that grants CP.</td></tr><tr><td>PB</td><td>Proficiency Bonus; all characters begin at +2.</td></tr><tr><td>Proficiency</td><td>Training or specialized experience in a skill, tool, weapon, or saving throw.</td></tr><tr><td>Reputation</td><td>A value from −20 to +20 representing public perception.</td></tr><tr><td>Trait</td><td>A character option purchased with CP, sometimes with multiple ranks.</td></tr><tr><td>XP</td><td>Experience Points used to determine level progression.</td></tr></tbody></table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: guns
+title: Guns
+category: Equipment
+[HTML]
+<h1>Guns</h1>
+<p class="lead">Firearms available in Dust &amp; Blood, including rifles, handguns, and shotguns. Each weapon has its own damage, effective range, capacity, reload cost, and price.</p>
+
+<h2 id="rifles">Rifles</h2>
+<table>
+<thead><tr><th>Rifle Model</th><th>Manufacturer</th><th>Type</th><th>Damage</th><th>Range</th><th>Capacity</th><th>Reload Cost</th><th>Price</th></tr></thead>
+<tbody>
+<tr><td>Winchester Model 1873</td><td>Winchester Repeating Arms</td><td>Lever-Action</td><td>1d10</td><td>100 ft</td><td>6</td><td>2 AP</td><td>$30</td></tr>
+<tr><td>Winchester Model 1876</td><td>Winchester Repeating Arms</td><td>Heavy Lever-Action</td><td>1d12</td><td>100 ft</td><td>5</td><td>2 AP</td><td>$40</td></tr>
+<tr><td>Winchester Model 1886</td><td>Winchester Repeating Arms</td><td>Heavy Lever-Action</td><td>1d12</td><td>125 ft</td><td>6</td><td>2 AP</td><td>$45</td></tr>
+<tr><td>Winchester Model 1885</td><td>Winchester Repeating Arms</td><td>Falling-Block</td><td>1d12</td><td>150 ft</td><td>1</td><td>2 AP</td><td>$35</td></tr>
+<tr><td>Sharps Model 1874</td><td>Sharps Rifle Manufacturing Company</td><td>Single-Shot</td><td>1d12</td><td>200 ft</td><td>1</td><td>2 AP</td><td>$40</td></tr>
+<tr><td>Remington Rolling Block</td><td>Remington Arms</td><td>Rolling-Block</td><td>1d10</td><td>150 ft</td><td>1</td><td>2 AP</td><td>$20</td></tr>
+<tr><td>Springfield Model 1873 Trapdoor</td><td>Springfield Armory</td><td>Single-Shot Military</td><td>1d10</td><td>150 ft</td><td>1</td><td>2 AP</td><td>$25</td></tr>
+<tr><td>Remington-Lee Model 1879</td><td>Remington Arms / Lee system</td><td>Bolt-Action Repeater</td><td>1d10</td><td>150 ft</td><td>5</td><td>2 AP</td><td>$35</td></tr>
+<tr><td>Mauser Model 1871</td><td>Mauser</td><td>Bolt-Action</td><td>1d10</td><td>150 ft</td><td>1</td><td>2 AP</td><td>$30</td></tr>
+<tr><td>Spencer Repeating Rifle</td><td>Spencer Repeating Rifle Company</td><td>Repeater</td><td>1d8</td><td>100 ft</td><td>7</td><td>2 AP</td><td>$25</td></tr>
+</tbody>
+</table>
+
+<h2 id="handguns">Handguns</h2>
+<table>
+<thead><tr><th>Handgun Model</th><th>Manufacturer</th><th>Type</th><th>Damage</th><th>Range</th><th>Capacity</th><th>Reload Cost</th><th>Price</th></tr></thead>
+<tbody>
+<tr><td>Colt Model 1873 Single Action Army</td><td>Colt's Patent Fire Arms Manufacturing Company</td><td>Revolver</td><td>1d8</td><td>50 ft</td><td>6</td><td>2 AP</td><td>$20</td></tr>
+<tr><td>Colt Model 1877 Lightning</td><td>Colt's Patent Fire Arms Manufacturing Company</td><td>Double-Action Revolver</td><td>1d6</td><td>40 ft</td><td>6</td><td>2 AP</td><td>$22</td></tr>
+<tr><td>Colt Model 1878 Double Action</td><td>Colt's Patent Fire Arms Manufacturing Company</td><td>Double-Action Revolver</td><td>1d8</td><td>50 ft</td><td>6</td><td>2 AP</td><td>$25</td></tr>
+<tr><td>Smith &amp; Wesson Model 3</td><td>Smith &amp; Wesson</td><td>Break-Action Revolver</td><td>1d8</td><td>50 ft</td><td>6</td><td>2 AP</td><td>$25</td></tr>
+<tr><td>Remington Model 1875</td><td>Remington Arms</td><td>Single-Action Revolver</td><td>1d8</td><td>50 ft</td><td>6</td><td>2 AP</td><td>$20</td></tr>
+<tr><td>Remington Model 1888</td><td>Remington Arms</td><td>Double-Action Revolver</td><td>1d6</td><td>40 ft</td><td>5</td><td>2 AP</td><td>$20</td></tr>
+<tr><td>Merwin Hulbert Pocket Army</td><td>Merwin, Hulbert &amp; Co.</td><td>Revolver</td><td>1d8</td><td>40 ft</td><td>5</td><td>2 AP</td><td>$25</td></tr>
+<tr><td>Remington-Rider Double Derringer</td><td>Remington Arms</td><td>Derringer</td><td>1d6</td><td>15 ft</td><td>2</td><td>2 AP</td><td>$12</td></tr>
+<tr><td>Sharps Four-Barrel Pepperbox</td><td>Sharps &amp; Hankins</td><td>Pepperbox Pistol</td><td>1d4</td><td>15 ft</td><td>4</td><td>2 AP</td><td>$10</td></tr>
+<tr><td>Colt Model 1849 Pocket</td><td>Colt's Patent Fire Arms Manufacturing Company</td><td>Pocket Revolver</td><td>1d6</td><td>30 ft</td><td>5</td><td>2 AP</td><td>$15</td></tr>
+<tr><td>Smith &amp; Wesson Model 1½</td><td>Smith &amp; Wesson</td><td>Pocket Revolver</td><td>1d4</td><td>20 ft</td><td>5</td><td>2 AP</td><td>$10</td></tr>
+<tr><td>Remington Model 51</td><td>Remington Arms</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+</tbody>
+</table>
+
+<h2 id="shotguns">Shotguns</h2>
+<table>
+<thead><tr><th>Shotgun Model</th><th>Manufacturer</th><th>Type</th><th>Damage</th><th>Range</th><th>Capacity</th><th>Reload Cost</th><th>Price</th></tr></thead>
+<tbody>
+<tr><td>Model 1881</td><td>Colt's Patent Fire Arms Manufacturing Company</td><td>Double-Barrel</td><td>1d10</td><td>30 ft</td><td>2</td><td>1 AP</td><td>$25</td></tr>
+<tr><td>Model 1878</td><td>Colt's Patent Fire Arms Manufacturing Company</td><td>Double-Barrel</td><td>1d10</td><td>30 ft</td><td>2</td><td>1 AP</td><td>$25</td></tr>
+<tr><td>Model 1883 Hammerless</td><td>W.W. Greener</td><td>Double-Barrel</td><td>1d10</td><td>30 ft</td><td>2</td><td>1 AP</td><td>$35</td></tr>
+<tr><td>Model 1887</td><td>Winchester Repeating Arms</td><td>Lever-Action</td><td>1d10</td><td>30 ft</td><td>5</td><td>2 AP</td><td>$40</td></tr>
+<tr><td>Model 1885</td><td>Spencer Repeating Shotgun</td><td>Repeating</td><td>1d8</td><td>25 ft</td><td>7</td><td>2 AP</td><td>$35</td></tr>
+<tr><td>Model 1889</td><td>Browning Brothers</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+<tr><td>Model 1878</td><td>Parker Brothers</td><td>Double-Barrel</td><td>1d10</td><td>30 ft</td><td>2</td><td>1 AP</td><td>$30</td></tr>
+<tr><td>Model 1878</td><td>Remington Arms</td><td>Double-Barrel</td><td>1d10</td><td>30 ft</td><td>2</td><td>1 AP</td><td>$25</td></tr>
+<tr><td>Model 1880</td><td>Ithaca Gun Company</td><td>Double-Barrel</td><td>1d10</td><td>30 ft</td><td>2</td><td>1 AP</td><td>$25</td></tr>
+<tr><td>Model 1883</td><td>Lefever Arms Company</td><td>Double-Barrel</td><td>1d10</td><td>30 ft</td><td>2</td><td>1 AP</td><td>$35</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: tonics
+title: Tonics and Remedies
+category: Equipment
+[HTML]
+<h1>Dust &amp; Blood — Tonics and Remedies</h1>
+<p class="lead">Tonics and remedies provide healing, stamina, temporary bonuses, and protection against poisons or venom.</p>
+<table>
+<thead><tr><th>Tonic</th><th>Quality</th><th>Price</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Healing Tonic</td><td>Flawed</td><td>$2</td><td>Restore 1d4 HP.</td></tr>
+<tr><td>Healing Tonic</td><td>Normal</td><td>$5</td><td>Restore 1d6 HP.</td></tr>
+<tr><td>Healing Tonic</td><td>Pure</td><td>$10</td><td>Restore 2d6 HP.</td></tr>
+<tr><td>Strong Healing Tonic</td><td>Flawed</td><td>$5</td><td>Restore 1d6 HP.</td></tr>
+<tr><td>Strong Healing Tonic</td><td>Normal</td><td>$10</td><td>Restore 2d6 HP.</td></tr>
+<tr><td>Strong Healing Tonic</td><td>Pure</td><td>$20</td><td>Restore 3d6 HP.</td></tr>
+<tr><td>Stamina Tonic</td><td>Flawed</td><td>$2</td><td>Restore 1 AP immediately.</td></tr>
+<tr><td>Stamina Tonic</td><td>Normal</td><td>$5</td><td>Restore 2 AP immediately.</td></tr>
+<tr><td>Stamina Tonic</td><td>Pure</td><td>$10</td><td>Restore 3 AP immediately.</td></tr>
+<tr><td>Strong Stamina Tonic</td><td>Flawed</td><td>$5</td><td>Restore 2 AP immediately.</td></tr>
+<tr><td>Strong Stamina Tonic</td><td>Normal</td><td>$10</td><td>Restore 4 AP immediately.</td></tr>
+<tr><td>Strong Stamina Tonic</td><td>Pure</td><td>$20</td><td>Restore 6 AP immediately.</td></tr>
+<tr><td>Condition Tonic</td><td>Flawed</td><td>$4</td><td>Gain +1 on your next Condition Check.</td></tr>
+<tr><td>Condition Tonic</td><td>Normal</td><td>$8</td><td>Gain +2 on your next Condition Check.</td></tr>
+<tr><td>Condition Tonic</td><td>Pure</td><td>$16</td><td>Gain +3 on your next Condition Check.</td></tr>
+<tr><td>Pain Tonic</td><td>Flawed</td><td>$3</td><td>Ignore the movement penalty from an incapacitated leg for 30 seconds.</td></tr>
+<tr><td>Pain Tonic</td><td>Normal</td><td>$6</td><td>Ignore the movement penalty from an incapacitated leg for 1 minute.</td></tr>
+<tr><td>Pain Tonic</td><td>Pure</td><td>$12</td><td>Ignore the movement penalty from an incapacitated leg for 5 minutes.</td></tr>
+<tr><td>Nerve Tonic</td><td>Flawed</td><td>$3</td><td>Gain +1 on your next Wisdom Check against fear or intimidation.</td></tr>
+<tr><td>Nerve Tonic</td><td>Normal</td><td>$6</td><td>Gain +2 on your next Wisdom Check against fear or intimidation.</td></tr>
+<tr><td>Nerve Tonic</td><td>Pure</td><td>$12</td><td>Gain +3 on your next Wisdom Check against fear or intimidation.</td></tr>
+<tr><td>Antidote Tonic</td><td>Flawed</td><td>$4</td><td>Reduce the effects of one poison or venom currently affecting you; the GM determines the reduction.</td></tr>
+<tr><td>Antidote Tonic</td><td>Normal</td><td>$8</td><td>End the effects of one poison or venom currently affecting you.</td></tr>
+<tr><td>Antidote Tonic</td><td>Pure</td><td>$16</td><td>End the effects of one poison or venom currently affecting you and gain +2 on your next Condition Check against poison or venom for 1 hour.</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: clothing
+title: Clothing and Protective Gear
+category: Equipment
+[HTML]
+<h1>Clothing &amp; Protective Gear</h1>
+<p class="lead">Clothing and protective gear provide Defense Points (DP) to specific body locations or clothing slots.</p>
+<table>
+<thead><tr><th>Clothing / Gear</th><th>Price</th><th>DP</th></tr></thead>
+<tbody>
+<tr><td>Worn Clothes</td><td>$1</td><td>Shirt: 5 / Pants: 3 / Hat: 1</td></tr>
+<tr><td>Work Clothes</td><td>$3</td><td>Shirt: 6 / Pants: 4 / Hat: 1</td></tr>
+<tr><td>Decent Clothes</td><td>$5</td><td>Shirt: 7 / Pants: 5 / Hat: 2</td></tr>
+<tr><td>Fine Town Clothes</td><td>$12</td><td>Shirt: 7 / Pants: 5 / Hat: 2</td></tr>
+<tr><td>Ranch Hand Outfit</td><td>$4</td><td>Shirt: 6 / Pants: 5 / Hat: 2</td></tr>
+<tr><td>Cowboy Outfit</td><td>$8</td><td>Shirt: 7 / Pants: 5 / Hat: 2</td></tr>
+<tr><td>Duster Coat</td><td>$5</td><td>Torso: +1</td></tr>
+<tr><td>Heavy Winter Coat</td><td>$6</td><td>Torso: +2</td></tr>
+<tr><td>Wool Vest</td><td>$3</td><td>Torso: +1</td></tr>
+<tr><td>Leather Vest</td><td>$5</td><td>Torso: +2</td></tr>
+<tr><td>Heavy Leather Coat</td><td>$10</td><td>Torso: +3</td></tr>
+<tr><td>Work Apron</td><td>$1</td><td>Torso: +1</td></tr>
+<tr><td>Blacksmith's Apron</td><td>$3</td><td>Torso: +2</td></tr>
+<tr><td>Work Gloves</td><td>$1</td><td>Arms: +1</td></tr>
+<tr><td>Heavy Leather Gloves</td><td>$3</td><td>Arms: +2</td></tr>
+<tr><td>Leather Chaps</td><td>$4</td><td>Legs: +2</td></tr>
+<tr><td>Heavy Riding Chaps</td><td>$7</td><td>Legs: +3</td></tr>
+<tr><td>Reinforced Work Pants</td><td>$5</td><td>Legs: +1</td></tr>
+<tr><td>Leather Boots</td><td>$3</td><td>Legs: +1</td></tr>
+<tr><td>Heavy Work Boots</td><td>$5</td><td>Legs: +2</td></tr>
+<tr><td>Cowboy Hat</td><td>$2</td><td>Head: +1</td></tr>
+<tr><td>Hard Leather Hat</td><td>$4</td><td>Head: +2</td></tr>
+<tr><td>Padded Cap</td><td>$3</td><td>Head: +1</td></tr>
+<tr><td>Bandana</td><td>$1</td><td>No DP bonus</td></tr>
+<tr><td>Wool Scarf</td><td>$2</td><td>No DP bonus</td></tr>
+<tr><td>Leather Bracers</td><td>$3</td><td>Arms: +1</td></tr>
+<tr><td>Reinforced Leather Jacket</td><td>$12</td><td>Torso: +3</td></tr>
+<tr><td>Quilted Undershirt</td><td>$4</td><td>Torso: +1</td></tr>
+<tr><td>Padded Coat</td><td>$8</td><td>Torso: +2</td></tr>
+<tr><td>Gambler's Outfit</td><td>$10</td><td>Shirt: 7 / Pants: 5 / Hat: 2</td></tr>
+<tr><td>Lawman's Outfit</td><td>$12</td><td>Shirt: 7 / Pants: 5 / Hat: 2</td></tr>
+<tr><td>Outlaw's Outfit</td><td>$6</td><td>Shirt: 6 / Pants: 4 / Hat: 2</td></tr>
+<tr><td>Doctor's Outfit</td><td>$10</td><td>Shirt: 7 / Pants: 5 / Hat: 2</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: miscellaneous
+title: Miscellaneous Items
+category: Equipment
+[HTML]
+<h1>Miscellaneous Items</h1>
+<p class="lead">General supplies and tools used for travel, work, gambling, law enforcement, and medical care.</p>
+<table>
+<thead><tr><th>Item</th><th>Price</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Bedroll</td><td>$2</td><td>Allows a character to sleep comfortably outdoors.</td></tr>
+<tr><td>Canteen</td><td>$1</td><td>Holds drinking water.</td></tr>
+<tr><td>Rope (50 ft.)</td><td>$2</td><td>Used for climbing, tying, securing objects, and similar tasks.</td></tr>
+<tr><td>Work Knife</td><td>$2</td><td>Basic utility knife; can also be used as a weapon.</td></tr>
+<tr><td>Saddle</td><td>$15</td><td>Required to properly ride a horse.</td></tr>
+<tr><td>Bridle</td><td>$3</td><td>Required to properly control a horse while riding.</td></tr>
+<tr><td>Blacksmith Hammer</td><td>$4</td><td>Required for basic blacksmithing work.</td></tr>
+<tr><td>Tongs</td><td>$2</td><td>Used for handling hot metal.</td></tr>
+<tr><td>Small Tool Kit</td><td>$5</td><td>Provides the tools needed for basic repairs and metalworking.</td></tr>
+<tr><td>Whetstone</td><td>$1</td><td>Used to sharpen knives and other bladed tools.</td></tr>
+<tr><td>Lawman's Badge</td><td>$2</td><td>Identifies the wearer as a lawman.</td></tr>
+<tr><td>Handcuffs</td><td>$5</td><td>Used to restrain a character.</td></tr>
+<tr><td>Notebook</td><td>$1</td><td>Used for writing notes, records, or observations.</td></tr>
+<tr><td>Writing Supplies</td><td>$1</td><td>Ink, pen, and basic writing materials.</td></tr>
+<tr><td>Deck of Cards</td><td>$1</td><td>Used for card games and Gambling checks.</td></tr>
+<tr><td>Dice Set</td><td>$1</td><td>Used for dice games and Gambling checks.</td></tr>
+<tr><td>Flask</td><td>$1</td><td>Holds a small amount of liquid.</td></tr>
+<tr><td>Lockpicks</td><td>$5</td><td>Required for attempting to pick locks.</td></tr>
+<tr><td>Doctor's Bag</td><td>$10</td><td>Holds and organizes medical equipment.</td></tr>
+<tr><td>Medical Tools</td><td>$8</td><td>Required for advanced medical procedures.</td></tr>
+<tr><td>Bandages</td><td>$1</td><td>Basic medical supplies used for treating injuries.</td></tr>
+<tr><td>Antiseptic</td><td>$2</td><td>Used to clean wounds and prevent infection.</td></tr>
+<tr><td>Surgical Knife</td><td>$3</td><td>Medical tool used for surgical procedures.</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: fishing-lures
+title: Fishing Lures
+category: Equipment
+[HTML]
+<h1>Dust &amp; Blood — Fishing Lures</h1>
+<table>
+<thead><tr><th>Item</th><th>Quality</th><th>Price</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Spinner Lure</td><td>Flawed</td><td>$0.50</td><td>Grants +1 to Fishing Checks.</td></tr>
+<tr><td>Spinner Lure</td><td>Normal</td><td>$2.00</td><td>Grants +2 to Fishing Checks.</td></tr>
+<tr><td>Spinner Lure</td><td>Pure</td><td>$10.00</td><td>Grants +3 to Fishing Checks.</td></tr>
+<tr><td>Spoon Lure</td><td>Flawed</td><td>$0.50</td><td>Grants +1 to Fishing Checks.</td></tr>
+<tr><td>Spoon Lure</td><td>Normal</td><td>$2.00</td><td>Grants +2 to Fishing Checks.</td></tr>
+<tr><td>Spoon Lure</td><td>Pure</td><td>$10.00</td><td>Grants +3 to Fishing Checks.</td></tr>
+<tr><td>Minnow Lure</td><td>Flawed</td><td>$0.50</td><td>Grants +1 to Fishing Checks.</td></tr>
+<tr><td>Minnow Lure</td><td>Normal</td><td>$2.00</td><td>Grants +2 to Fishing Checks.</td></tr>
+<tr><td>Minnow Lure</td><td>Pure</td><td>$10.00</td><td>Grants +3 to Fishing Checks.</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: ammunition
+title: Ammunition
+category: Equipment
+[HTML]
+<h1>Ammunition</h1>
+<table>
+<thead><tr><th>Ammunition</th><th>Compatible Weapon</th><th>Price</th></tr></thead>
+<tbody>
+<tr><td>.32 S&amp;W Short</td><td>Compatible revolvers</td><td>$0.10 per round</td></tr>
+<tr><td>.38 Long Colt</td><td>Compatible revolvers</td><td>$0.10 per round</td></tr>
+<tr><td>.41 Colt</td><td>Compatible revolvers</td><td>$0.10 per round</td></tr>
+<tr><td>.44-40 Winchester Center Fire</td><td>Winchester Model 1873, compatible rifles and handguns</td><td>$0.10 per round</td></tr>
+<tr><td>.45 Colt</td><td>Colt Single Action Army and compatible revolvers</td><td>$0.10 per round</td></tr>
+<tr><td>.44 Henry Flat</td><td>Compatible Henry and early Winchester rifles</td><td>$0.10 per round</td></tr>
+<tr><td>.45-75 Winchester Center Fire</td><td>Winchester Model 1876 and compatible rifles</td><td>$0.10 per round</td></tr>
+<tr><td>.45-70 Government</td><td>Springfield Model 1873 Trapdoor and compatible rifles</td><td>$0.10 per round</td></tr>
+<tr><td>.50-70 Government</td><td>Compatible military rifles</td><td>$0.10 per round</td></tr>
+<tr><td>.50-90 Sharps</td><td>Compatible Sharps rifles</td><td>$0.10 per round</td></tr>
+<tr><td>.40-70 Sharps</td><td>Compatible Sharps rifles</td><td>$0.10 per round</td></tr>
+<tr><td>.45-90 Sharps</td><td>Compatible Sharps rifles</td><td>$0.10 per round</td></tr>
+<tr><td>12-Gauge Shell</td><td>Compatible 12-gauge shotguns</td><td>$0.10 per shell</td></tr>
+<tr><td>10-Gauge Shell</td><td>Compatible 10-gauge shotguns</td><td>$0.10 per shell</td></tr>
+<tr><td>.22 Short</td><td>Compatible .22 rimfire firearms</td><td>$0.10 per round</td></tr>
+<tr><td>.22 Long</td><td>Compatible .22 rimfire firearms</td><td>$0.10 per round</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: horse-equipment
+title: Horse Equipment and Supplies
+category: Equipment
+[HTML]
+<h1>Dust &amp; Blood — Horse Equipment &amp; Supplies</h1>
+
+<h2 id="saddles">Saddles</h2>
+<table>
+<thead><tr><th>Item</th><th>Price</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Basic Saddle</td><td>$15</td><td>Standard saddle required for riding a horse.</td></tr>
+<tr><td>Lightweight Saddle</td><td>$25</td><td>Increases the horse's movement speed by 5 ft per turn.</td></tr>
+<tr><td>Racing Saddle</td><td>$40</td><td>Increases the horse's movement speed by 10 ft per turn.</td></tr>
+<tr><td>Pack Saddle</td><td>$25</td><td>Increases the horse's carrying capacity by 50 lbs.</td></tr>
+<tr><td>Heavy Pack Saddle</td><td>$40</td><td>Increases the horse's carrying capacity by 100 lbs.</td></tr>
+<tr><td>Reinforced Saddle</td><td>$35</td><td>Grants +2 to checks made to remain mounted.</td></tr>
+<tr><td>Military Saddle</td><td>$45</td><td>Grants +1 to checks made to remain mounted and increases carrying capacity by 25 lbs.</td></tr>
+<tr><td>Trail Saddle</td><td>$30</td><td>Reduces the effects of long-distance travel on the horse.</td></tr>
+<tr><td>Fine Leather Saddle</td><td>$50</td><td>Grants +1 to Riding Checks.</td></tr>
+<tr><td>Custom Saddle</td><td>$60</td><td>Grants +1 to Riding Checks and increases carrying capacity by 25 lbs.</td></tr>
+</tbody>
+</table>
+
+<h2 id="horse-tonics">Horse Stimulants &amp; Tonics</h2>
+<table>
+<thead><tr><th>Item</th><th>Price</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Flawed Horse Stimulant</td><td>$2</td><td>Increases movement speed by 5 ft per turn for 2 turns. The horse suffers -1 to Riding-related checks for the next 5 turns afterward.</td></tr>
+<tr><td>Normal Horse Stimulant</td><td>$5</td><td>Increases movement speed by 10 ft per turn for 3 turns.</td></tr>
+<tr><td>Pure Horse Stimulant</td><td>$10</td><td>Increases movement speed by 10 ft per turn for 5 turns.</td></tr>
+<tr><td>Horse Recovery Tonic</td><td>$5</td><td>Restores 1d6 Horse Stamina.</td></tr>
+<tr><td>Strong Horse Recovery Tonic</td><td>$10</td><td>Restores 2d6 Horse Stamina.</td></tr>
+<tr><td>Horse Calming Tonic</td><td>$4</td><td>Grants +2 to checks against fear or panic for 10 minutes.</td></tr>
+<tr><td>Horse Conditioning Tonic</td><td>$8</td><td>Grants +2 to the next Condition Check made for the horse.</td></tr>
+</tbody>
+</table>
+
+<h2 id="grooming">Grooming &amp; Care</h2>
+<table>
+<thead><tr><th>Item</th><th>Price</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Horse Brush</td><td>$2</td><td>Used to groom a horse and maintain its coat.</td></tr>
+<tr><td>Curry Comb</td><td>$1</td><td>Removes dirt and loose hair.</td></tr>
+<tr><td>Hoof Pick</td><td>$2</td><td>Cleans the horse's hooves and helps maintain hoof health.</td></tr>
+<tr><td>Mane Comb</td><td>$1</td><td>Used to groom the horse's mane and tail.</td></tr>
+<tr><td>Horse Shampoo</td><td>$2</td><td>Cleans the horse's coat.</td></tr>
+<tr><td>Hoof Oil</td><td>$3</td><td>Helps protect hooves during long journeys.</td></tr>
+<tr><td>Horse Blanket</td><td>$5</td><td>Protects the horse from cold weather.</td></tr>
+<tr><td>Fly Mask</td><td>$4</td><td>Helps protect the horse's face from insects.</td></tr>
+<tr><td>Fly Repellent</td><td>$3</td><td>Helps keep biting insects away for several hours.</td></tr>
+<tr><td>Saddle Soap</td><td>$2</td><td>Cleans and maintains leather saddles and tack.</td></tr>
+</tbody>
+</table>
+
+<h2 id="riding-equipment">Riding Equipment</h2>
+<table>
+<thead><tr><th>Item</th><th>Price</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Bridle</td><td>$3</td><td>Required to properly control a horse while riding.</td></tr>
+<tr><td>Improved Bridle</td><td>$8</td><td>Grants +1 to Riding Checks involving horse control.</td></tr>
+<tr><td>Reinforced Reins</td><td>$5</td><td>Grants +1 to checks made to control a horse in difficult situations.</td></tr>
+<tr><td>Saddle Bags</td><td>$5</td><td>Adds 25 lbs to carrying capacity.</td></tr>
+<tr><td>Large Saddle Bags</td><td>$10</td><td>Adds 50 lbs to carrying capacity.</td></tr>
+<tr><td>Bedroll Attachment</td><td>$3</td><td>Allows a bedroll to be secured to the saddle.</td></tr>
+<tr><td>Rifle Scabbard</td><td>$5</td><td>Allows a compatible rifle to be carried securely while mounted.</td></tr>
+<tr><td>Saddle Holsters</td><td>$6</td><td>Allows compatible handguns to be carried on the saddle.</td></tr>
+<tr><td>Lariat</td><td>$2</td><td>A rope intended for ranch work and roping.</td></tr>
+<tr><td>Horse Lead Rope</td><td>$2</td><td>Used to lead or secure a horse.</td></tr>
+<tr><td>Hitching Stake</td><td>$3</td><td>Provides a portable point to secure a horse where suitable ground permits.</td></tr>
+</tbody>
+</table>
+
+<h2 id="horse-protection">Horse Protection &amp; Travel</h2>
+<table>
+<thead><tr><th>Item</th><th>Price</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Basic Horseshoes</td><td>$5</td><td>Helps protect hooves during regular travel.</td></tr>
+<tr><td>Reinforced Horseshoes</td><td>$10</td><td>Grants +1 to checks involving difficult terrain.</td></tr>
+<tr><td>Trail Horseshoes</td><td>$12</td><td>Grants +2 to checks involving rocky terrain.</td></tr>
+<tr><td>Leg Wraps</td><td>$4</td><td>Grants +1 to checks against minor leg strain.</td></tr>
+<tr><td>Protective Horse Blanket</td><td>$8</td><td>Provides improved protection against cold weather.</td></tr>
+<tr><td>Watering Bag</td><td>$3</td><td>Carries water for the horse during travel.</td></tr>
+<tr><td>Feed Bag</td><td>$3</td><td>Allows a horse to eat while temporarily restrained.</td></tr>
+<tr><td>Grain Feed</td><td>$2</td><td>Provides one feeding for a horse.</td></tr>
+<tr><td>Premium Horse Feed</td><td>$5</td><td>Restores 1d6 Horse Stamina after adequate rest.</td></tr>
+<tr><td>Portable Water Trough</td><td>$8</td><td>Provides a container for watering horses while traveling.</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: gun-modifications
+title: Gun Modifications
+category: Equipment
+[HTML]
+<h1>Gun Modifications</h1>
+<p class="lead">Gun modifications provide bonuses or special capabilities to compatible firearms. Every gun has three modification slots for interchangeable modifications during downtime.</p>
+<table>
+<thead><tr><th>Modification</th><th>Compatible Weapon</th><th>Price</th><th>Effect</th></tr></thead>
+<tbody>
+<tr><td>Improved Sights</td><td>Rifles and handguns</td><td>$8</td><td>Grants +1 to Hit Rolls at medium or long range.</td></tr>
+<tr><td>Precision Sights</td><td>Rifles</td><td>$15</td><td>Grants +2 to Hit Rolls at long range.</td></tr>
+<tr><td>Custom Grip</td><td>Handguns</td><td>$5</td><td>Grants +1 to checks involving weapon handling.</td></tr>
+<tr><td>Reinforced Stock</td><td>Rifles</td><td>$8</td><td>Grants +1 to checks made to keep the weapon under control.</td></tr>
+<tr><td>Lightweight Stock</td><td>Rifles</td><td>$12</td><td>Reduces the weapon's carried weight; the GM determines the effect on movement.</td></tr>
+<tr><td>Extended Barrel</td><td>Compatible rifles</td><td>$15</td><td>Increases effective range by 25 ft.</td></tr>
+<tr><td>Shortened Barrel</td><td>Compatible rifles and shotguns</td><td>$10</td><td>Reduces effective range by 25 ft; grants +1 to checks involving weapon handling in close quarters.</td></tr>
+<tr><td>Improved Trigger</td><td>Compatible firearms</td><td>$12</td><td>Grants +1 to the first Hit Roll made during the character's turn.</td></tr>
+<tr><td>Custom Hammer</td><td>Compatible revolvers</td><td>$8</td><td>Grants +1 to checks involving weapon handling.</td></tr>
+<tr><td>Engraved Frame</td><td>Compatible firearms</td><td>$10</td><td>No combat bonus; increases the weapon's resale value by $5.</td></tr>
+<tr><td>Reinforced Frame</td><td>Compatible firearms</td><td>$20</td><td>Grants +1 to checks made to resist weapon damage or malfunction.</td></tr>
+<tr><td>Improved Loading Gate</td><td>Compatible lever-action rifles</td><td>$12</td><td>Reduces reload cost by 1 AP, to a minimum of 1 AP.</td></tr>
+<tr><td>Quick-Release Cylinder</td><td>Compatible revolvers</td><td>$15</td><td>Reduces reload cost by 1 AP, to a minimum of 1 AP.</td></tr>
+<tr><td>Improved Extractor</td><td>Compatible firearms</td><td>$10</td><td>Grants +1 to checks made to clear a weapon malfunction.</td></tr>
+<tr><td>Sling</td><td>Rifles and shotguns</td><td>$3</td><td>Reduces the AP cost to draw the weapon from 2 AP to 1 AP.</td></tr>
+<tr><td>Leather Wrap</td><td>Compatible firearm grips and stocks</td><td>$3</td><td>Grants +1 to checks involving weapon handling in adverse weather.</td></tr>
+<tr><td>Weatherproof Finish</td><td>Compatible firearms</td><td>$8</td><td>Reduces penalties caused by exposure to rain and harsh weather, at the GM's discretion.</td></tr>
+<tr><td>Custom Holster</td><td>Handguns</td><td>$5</td><td>Grants +1 to checks involving drawing or securing a handgun.</td></tr>
+<tr><td>Quick-Draw Holster</td><td>Handguns</td><td>$12</td><td>Grants +2 to checks involving drawing a handgun quickly.</td></tr>
+<tr><td>Recoil Pad</td><td>Compatible rifles and shotguns</td><td>$8</td><td>Grants +1 to checks made to maintain aim after firing.</td></tr>
+<tr><td>Bayonet Lug</td><td>Compatible military rifles</td><td>$8</td><td>Allows a compatible bayonet to be attached.</td></tr>
+<tr><td>Rifle Bayonet</td><td>Compatible rifles with a bayonet lug</td><td>$10</td><td>Allows the rifle to be used as a melee weapon; damage is determined by the GM.</td></tr>
+<tr><td>Gun Cleaning Kit</td><td>Most firearms</td><td>$5</td><td>Used to clean and maintain firearms.</td></tr>
+<tr><td>Gunsmith's Tool Kit</td><td>Most firearms</td><td>$15</td><td>Provides tools for advanced firearm maintenance and repairs.</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+[PAGE]
+id: fishing-bait
+title: Fishing Bait
+category: Equipment
+[HTML]
+<h1>Fishing Bait Table</h1>
+<table>
+<thead><tr><th>Bait</th><th>Cost</th><th>Fishing Check Bonus</th></tr></thead>
+<tbody>
+<tr><td>Earthworms</td><td>$0.10</td><td>+1</td></tr>
+<tr><td>Crickets</td><td>$0.15</td><td>+1</td></tr>
+<tr><td>Grasshoppers</td><td>$0.15</td><td>+1</td></tr>
+<tr><td>Grubs</td><td>$0.20</td><td>+2</td></tr>
+<tr><td>Minnows</td><td>$0.25</td><td>+2</td></tr>
+<tr><td>Leeches</td><td>$0.25</td><td>+2</td></tr>
+<tr><td>Crawfish</td><td>$0.30</td><td>+2</td></tr>
+<tr><td>Cut Bait</td><td>$0.20</td><td>+2</td></tr>
+<tr><td>Fish Eggs</td><td>$0.30</td><td>+2</td></tr>
+<tr><td>Large Live Minnow</td><td>$0.40</td><td>+3</td></tr>
+<tr><td>Fish Guts</td><td>$0.10</td><td>+1</td></tr>
+<tr><td>Artificial Fly</td><td>$0.50</td><td>+1</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+# ADD MORE PAGES OR ITEMS BELOW THIS LINE
+
+
+[PAGE]
+id: traits-and-flaws
+title: Traits & Flaws
+category: Character Creation
+[HTML]
+<h1>Traits &amp; Flaws</h1>
+
+<p>Traits represent a character's trained abilities, natural advantages, and specialized talents. Each trait has a Character Point (CP) cost and may have multiple ranks. Flaws represent weaknesses, disadvantages, and complications that grant Character Points in exchange for mechanical drawbacks.</p>
+
+<h2>Traits</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Trait</th>
+      <th>Rank</th>
+      <th>CP Cost</th>
+      <th>Mechanical Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Active Rider</td><td>I</td><td>2</td><td>Riding +2</td></tr>
+    <tr><td>Active Rider</td><td>II</td><td>3</td><td>Riding +4; mounted movement +5 ft/AP</td></tr>
+    <tr><td>Active Rider</td><td>III</td><td>4</td><td>Riding +6; mounted movement +10 ft/AP</td></tr>
+
+    <tr><td>Mounted Shooter</td><td>I</td><td>3</td><td>Remove firearm disadvantage while mounted</td></tr>
+    <tr><td>Mounted Shooter</td><td>II</td><td>4</td><td>Mounted firearm Hit Rolls +2</td></tr>
+    <tr><td>Mounted Shooter</td><td>III</td><td>5</td><td>Mounted firearm Hit Rolls +4; may make Targeted Shots while mounted</td></tr>
+
+    <tr><td>Quick Draw</td><td>I</td><td>2</td><td>Drawing/holstering costs 1 AP for rifle</td></tr>
+    <tr><td>Quick Draw</td><td>II</td><td>5</td><td>Drawing/holstering costs 0 AP for rifle and pistol</td></tr>
+
+    <tr><td>Fast Reload</td><td>I</td><td>2</td><td>Reload cost -1 AP</td></tr>
+    <tr><td>Fast Reload</td><td>II</td><td>3</td><td>Reload cost -2 AP</td></tr>
+    <tr><td>Fast Reload</td><td>III</td><td>4</td><td>Reload cost -3 AP</td></tr>
+
+    <tr><td>Deadeye</td><td>I</td><td>3</td><td>Firearm Targeted Hit Rolls +1</td></tr>
+    <tr><td>Deadeye</td><td>II</td><td>4</td><td>Firearm Targeted Hit Rolls +2</td></tr>
+    <tr><td>Deadeye</td><td>III</td><td>5</td><td>Firearm Targeted Hit Rolls +3</td></tr>
+
+    <tr><td>Brawler</td><td>I</td><td>2</td><td>Physical Grapple +2; unarmed damage +1</td></tr>
+    <tr><td>Brawler</td><td>II</td><td>3</td><td>Physical Grapple +4; unarmed damage +2; advantage on physical attack Hit Rolls</td></tr>
+    <tr><td>Brawler</td><td>III</td><td>4</td><td>Physical Grapple +6; unarmed damage +3; 1 AP now grants 2 punches</td></tr>
+
+    <tr><td>Sprinter</td><td>I</td><td>2</td><td>Movement +5 ft/AP</td></tr>
+    <tr><td>Sprinter</td><td>II</td><td>3</td><td>Movement +10 ft/AP; Sneak capped at I</td></tr>
+    <tr><td>Sprinter</td><td>III</td><td>4</td><td>Movement +15 ft/AP; Sneak capped at I</td></tr>
+
+    <tr><td>Strong Back</td><td>I</td><td>2</td><td>Carrying capacity ×1.5</td></tr>
+    <tr><td>Strong Back</td><td>II</td><td>3</td><td>Carrying capacity ×2</td></tr>
+    <tr><td>Strong Back</td><td>III</td><td>4</td><td>Carrying capacity ×3</td></tr>
+
+    <tr><td>Steady Hands</td><td>I</td><td>2</td><td>Precision checks +1</td></tr>
+    <tr><td>Steady Hands</td><td>II</td><td>3</td><td>Precision checks +2</td></tr>
+    <tr><td>Steady Hands</td><td>III</td><td>4</td><td>Precision checks +3</td></tr>
+
+    <tr><td>Keen Eyes</td><td>I</td><td>2</td><td>Sight-based checks +2; firearm range +10 ft</td></tr>
+    <tr><td>Keen Eyes</td><td>II</td><td>3</td><td>Sight-based checks +4; firearm range +20 ft</td></tr>
+    <tr><td>Keen Eyes</td><td>III</td><td>4</td><td>Sight-based checks +6; firearm range +30 ft</td></tr>
+
+    <tr><td>Sneak</td><td>I</td><td>2</td><td>Stealth +2</td></tr>
+    <tr><td>Sneak</td><td>II</td><td>3</td><td>Stealth +4</td></tr>
+    <tr><td>Sneak</td><td>III</td><td>4</td><td>Stealth +6</td></tr>
+
+    <tr><td>Tracker</td><td>I</td><td>2</td><td>Tracking +2</td></tr>
+    <tr><td>Tracker</td><td>II</td><td>3</td><td>Tracking +4</td></tr>
+    <tr><td>Tracker</td><td>III</td><td>4</td><td>Tracking +6</td></tr>
+
+    <tr><td>Animal Handler</td><td>I</td><td>2</td><td>Animal Handling +2</td></tr>
+    <tr><td>Animal Handler</td><td>II</td><td>3</td><td>Animal Handling +4</td></tr>
+    <tr><td>Animal Handler</td><td>III</td><td>4</td><td>Animal Handling +6</td></tr>
+
+    <tr><td>Field Medic</td><td>I</td><td>2</td><td>Medicine +2; stabilize for 2 AP</td></tr>
+    <tr><td>Field Medic</td><td>II</td><td>3</td><td>Medicine +4; stabilize for 1 AP</td></tr>
+    <tr><td>Field Medic</td><td>III</td><td>4</td><td>Medicine +6; stabilize for 0 AP</td></tr>
+
+    <tr><td>Herbalist</td><td>I</td><td>2</td><td>Herbalism +2; gather +1 herb</td></tr>
+    <tr><td>Herbalist</td><td>II</td><td>3</td><td>Herbalism +4; gather +2 herbs</td></tr>
+    <tr><td>Herbalist</td><td>III</td><td>4</td><td>Herbalism +6; gather +3 herbs</td></tr>
+
+    <tr><td>Intimidating</td><td>I</td><td>2</td><td>Intimidation +2</td></tr>
+    <tr><td>Intimidating</td><td>II</td><td>3</td><td>Intimidation +4</td></tr>
+    <tr><td>Intimidating</td><td>III</td><td>4</td><td>Intimidation +6</td></tr>
+
+    <tr><td>Silver Tongue</td><td>I</td><td>2</td><td>Persuasion/Deception +2</td></tr>
+    <tr><td>Silver Tongue</td><td>II</td><td>3</td><td>Persuasion/Deception +4</td></tr>
+    <tr><td>Silver Tongue</td><td>III</td><td>4</td><td>Persuasion/Deception +6</td></tr>
+
+    <tr><td>Iron Will</td><td>I</td><td>2</td><td>Fear/Intimidation saves +2</td></tr>
+    <tr><td>Iron Will</td><td>II</td><td>3</td><td>Fear/Intimidation saves +4</td></tr>
+    <tr><td>Iron Will</td><td>III</td><td>4</td><td>Fear/Intimidation saves +6</td></tr>
+
+    <tr><td>Acrobat</td><td>I</td><td>2</td><td>Acrobatics +2; falling damage -1d6</td></tr>
+    <tr><td>Acrobat</td><td>II</td><td>3</td><td>Acrobatics +4; falling damage -2d6</td></tr>
+    <tr><td>Acrobat</td><td>III</td><td>4</td><td>Acrobatics +6; falling damage -3d6</td></tr>
+
+    <tr><td>Moral Dilemma</td><td>I</td><td>3</td><td>Removes Pacifist firearm disadvantage</td></tr>
+
+    <tr><td>Jack of All Trades</td><td>I</td><td>3</td><td>Adds +1 to your PB</td></tr>
+    <tr><td>Jack of All Trades</td><td>II</td><td>5</td><td>Adds +2 to your PB</td></tr>
+
+    <tr><td>Strong Armed</td><td>I</td><td>4</td><td>No need for 2 hands on a rifle/shotgun anymore</td></tr>
+
+    <tr><td>Thick Skinned</td><td>I</td><td>5</td><td>+2 natural DB permanently</td></tr>
+    <tr><td>Thick Skinned</td><td>II</td><td>10</td><td>+5 natural DB permanently</td></tr>
+
+    <tr><td>Athletic</td><td>I</td><td>12</td><td>+2 permanently to your starting AP</td></tr>
+    <tr><td>Athletic</td><td>II</td><td>13</td><td>+1 permanently added to your starting AP</td></tr>
+
+    <tr><td>Uncle Sam Will Be Proud</td><td>I</td><td>3</td><td>+3 Hit Roll permanently</td></tr>
+    <tr><td>Uncle Sam Will Be Proud</td><td>II</td><td>5</td><td>+4 Hit Roll permanently</td></tr>
+  </tbody>
+</table>
+
+<h2>Flaws</h2>
+
+<p>Flaws grant Character Points in exchange for a mechanical disadvantage. A character's flaws can affect their abilities, combat performance, social interactions, movement, or reputation.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Flaw</th>
+      <th>CP Gained</th>
+      <th>Mechanical Effect</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Rough Hands</td><td>+3 CP</td><td>Agility -3</td></tr>
+    <tr><td>Lost Opportunity</td><td>+2 CP</td><td>Intelligence -2</td></tr>
+    <tr><td>Socially Weird</td><td>+1 CP</td><td>Charisma -1</td></tr>
+    <tr><td>Pacifist</td><td>+3 CP</td><td>Disadvantage on all firearm attacks</td></tr>
+    <tr><td>Wanted Man</td><td>+2 CP</td><td>Starting Reputation -5</td></tr>
+    <tr><td>Starting Debt</td><td>+2 CP</td><td>Start with $20 debt</td></tr>
+    <tr><td>Weak</td><td>+2 CP</td><td>Might -2</td></tr>
+    <tr><td>Clumsy</td><td>+2 CP</td><td>Agility -2</td></tr>
+    <tr><td>Sickly</td><td>+2 CP</td><td>Condition -2</td></tr>
+    <tr><td>Uneducated</td><td>+2 CP</td><td>Intelligence -2</td></tr>
+    <tr><td>Gullible</td><td>+2 CP</td><td>Wisdom -2 against Deception</td></tr>
+    <tr><td>Cowardly</td><td>+2 CP</td><td>Disadvantage on checks against Fear</td></tr>
+    <tr><td>Poor Reputation</td><td>+1 CP</td><td>Starting Reputation -2</td></tr>
+    <tr><td>One-Eyed</td><td>+4 CP</td><td>Disadvantage on sight-based checks; firearm Hit Rolls -2</td></tr>
+    <tr><td>Missing Fingers</td><td>+4 CP</td><td>Reloading costs +2 AP</td></tr>
+    <tr><td>Slow</td><td>+3 CP</td><td>Movement -5 ft/AP</td></tr>
+    <tr><td>Heavy Sleeper</td><td>+1 CP</td><td>Waking from sleep requires 2 AP</td></tr>
+    <tr><td>Hot-Headed</td><td>+2 CP</td><td>Disadvantage on checks to resist Intimidation</td></tr>
+    <tr><td>Bad Knee</td><td>+5 CP</td><td>Movement -10 ft/AP</td></tr>
+    <tr><td>Poor Shot</td><td>+3 CP</td><td>Firearm Hit Rolls -2</td></tr>
+    <tr><td>Weak Grip</td><td>+2 CP</td><td>Physical Grapple rolls -2</td></tr>
+    <tr><td>Poor Rider</td><td>+2 CP</td><td>Riding checks -4</td></tr>
+    <tr><td>Animal Fear</td><td>+2 CP</td><td>Animal Handling checks -4</td></tr>
+    <tr><td>Night Blind</td><td>+2 CP</td><td>Sight-based checks at night -4</td></tr>
+    <tr><td>Bad Memory</td><td>+2 CP</td><td>Intelligence checks involving memory -4</td></tr>
+    <tr><td>Hard of Hearing</td><td>+2 CP</td><td>Hearing-based checks -4</td></tr>
+    <tr><td>Loud</td><td>+2 CP</td><td>Stealth checks -4</td></tr>
+    <tr><td>Nervous Hands</td><td>+2 CP</td><td>Precision checks -2</td></tr>
+    <tr><td>Heavy Footed</td><td>+2 CP</td><td>Stealth -4</td></tr>
+    <tr><td>Short Temper</td><td>+1 CP</td><td>Charisma checks to remain calm -4</td></tr>
+    <tr><td>Bad Liar</td><td>+2 CP</td><td>Deception -4</td></tr>
+    <tr><td>Bad Reputation</td><td>+2 CP</td><td>Starting Reputation -5</td></tr>
+    <tr><td>Debt Collector</td><td>+4 CP</td><td>Start owing $50</td></tr>
+    <tr><td>Wanted Dead or Alive</td><td>+4 CP</td><td>Starting Reputation -10; bounty placed on character</td></tr>
+  </tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+
+[PAGE]
+id: core-combat-system
+title: Core Combat System
+category: Combat
+[HTML]
+<h1>Core Combat System</h1>
+
+<h2>Core Resolution</h2>
+<p><em>Dust &amp; Blood</em> uses a <strong>d20</strong> as its primary resolution die. When a character attempts something with a meaningful chance of success or failure, the player rolls a d20 and applies the appropriate modifiers. This system keeps gameplay simple and fast while allowing combat, skills, and other mechanics to remain flexible.</p>
+
+<h2>Action Points (AP)</h2>
+<p>The game uses an Action Point system to determine how much a character can do. AP can be spent on movement, drawing or holstering weapons, reloading, taking cover, interacting with objects, climbing, and other actions. Characters can also save unused AP for later turns.</p>
+
+<h3>Turn Definitions</h3>
+<ul>
+<li><strong>Active Turn:</strong> The turn currently belonging to your character.</li>
+<li><strong>Inactive Turn:</strong> Any turn belonging to another character.</li>
+</ul>
+
+<h3>AP Regeneration</h3>
+<p>At the start of each active turn, a player regenerates <strong>3 AP</strong>. These AP are added to any AP the character has saved from previous turns; saved AP are not lost when new AP are gained. For example, if a character has 3 AP saved when their next active turn begins, they will have <strong>6 AP</strong> available. The absolute most a character can have at any given time is <strong>12 AP</strong>.</p>
+<p>Characters regenerate AP even while unconscious. However, regenerating AP does not necessarily mean an unconscious character can spend those AP to perform actions.</p>
+
+<h3>Live Combat</h3>
+<p>Live Combat allows characters to spend their available AP outside their active turns. During a friend's turn or an enemy's turn, a character may spend AP to perform appropriate non-attacking actions, allowing them to react to changes on the battlefield rather than waiting passively for their next turn.</p>
+<p>During an inactive turn, characters may move on foot or by mount, take cover, and interact with the world. <strong>Firearm attacks can only be made during a character's own active turn.</strong></p>
+
+<h2>Actions</h2>
+<p>Actions such as talking or activating Parley do not require AP. Keep in mind that the enemy may not care about your efforts at negotiation.</p>
+<p>Actions that do require AP are usually performed during combat. These include movement, shooting, reloading, taking cover, sneaking, mounting or dismounting a horse, lassoing, and world interactions. Actions that require AP are not limited to combat; your GM may require AP during tense moments, puzzles, chases, and other situations.</p>
+
+<h2>Firearms</h2>
+
+<h3>Hit Rolls and Location Rolls</h3>
+<p>Firearm attacks use two separate d20 rolls: a <strong>Hit Roll</strong> and a <strong>Location Roll</strong>. The Hit Roll determines whether your attack hits the target. If the Hit Roll succeeds, roll for the Location Roll to determine which body part is struck. If the Hit Roll fails, do not make a Location Roll.</p>
+
+<h3>Hit Roll Modifier</h3>
+<p>Calculate your Hit Roll modifier by subtracting 2 from your Agility modifier. Apply the resulting modifier to your Hit Roll: add it if positive or subtract it if negative. For example, an Agility modifier of +5 gives you a +3 Hit Roll modifier, while an Agility modifier of 0 gives you a -2 Hit Roll modifier.</p>
+
+<h3>Firing</h3>
+<p>Firing a firearm costs <strong>1 Action Point (AP)</strong>, regardless of whether the attack hits or misses.</p>
+
+<h3>Reloading</h3>
+<p>Reloading costs vary depending on the firearm. Consult <strong>WEAPONS AND ITEMS</strong> to find the specific AP cost required to reload your weapon.</p>
+
+<h2>Hit Location</h2>
+<p>To successfully hit a target with a firearm, your Hit Roll must meet or exceed the target's <strong>Defense Bonus (DB)</strong>. The DB functions similarly to Armor Class (AC) in Dungeons &amp; Dragons: it is the number you must roll on your d20 to successfully hit the target. If your Hit Roll equals or exceeds the target's DB, the attack hits, and you roll for hit location. If your Hit Roll is lower than the target's DB, the attack misses.</p>
+
+<table>
+<thead>
+<tr><th>Roll</th><th>Location</th><th>Effect</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Head</td><td>The target is killed instantly, no matter the DB.</td></tr>
+<tr><td>2–5</td><td>Arms</td><td>The target drops whatever they are holding and makes a DC 9 Condition Check. On a failure, the arm is incapacitated and cannot be used. On a success, the arm remains functional.</td></tr>
+<tr><td>6–9</td><td>Legs</td><td>The target makes a DC 9 Condition Check. On a failure, the leg is incapacitated and the target's movement speed is halved. On a success, the leg remains functional and movement is unaffected.</td></tr>
+<tr><td>10–20</td><td>Torso</td><td>Roll the weapon's damage normally.</td></tr>
+</tbody>
+</table>
+
+<p>The hit-location system is divided by function: the <strong>head is lethal, the torso deals damage, the arms impair utility, and the legs impair mobility.</strong></p>
+
+<h2>Targeted Shots</h2>
+<p>A character may declare a <strong>Targeted Shot</strong> before firing in order to attempt to hit a specific body part. A Targeted Shot only succeeds if the Hit Roll is a <strong>natural 20</strong>. If the Hit Roll is anything other than a natural 20, the shot fails and no Location Roll is made.</p>
+<p>Targeted Shots cannot be declared while the character is riding a horse.</p>
+
+<h2>Mounts and Firearms</h2>
+<p>When firing a firearm while riding a horse, the attack is made with <strong>disadvantage</strong>.</p>
+<p>A character riding a horse <strong>cannot declare a Targeted Shot</strong>. Mounted firearm attacks therefore rely on the normal Hit Roll and Location Roll system.</p>
+
+<h2>Condition Checks</h2>
+<p>The standard Condition Check difficulty is <strong>DC 5</strong>. Firearm injuries to the arms and legs specifically use <strong>DC 9</strong>.</p>
+<p>For firearm injuries to the arms and legs, the Condition Check determines whether the injury causes its associated impairment. A successful check means the associated impairment does not occur.</p>
+
+<h2>Knives</h2>
+<p>Knives are primarily close-range weapons that provide an alternative to firearms. They are not intended to compete with firearms in raw damage, but instead offer a simple and versatile option for characters who choose not to rely on guns. Knives can also be useful for characters seeking a quieter way to eliminate an opponent when circumstances allow. Their primary combat utility is Release, which allows a character equipped with a knife to attempt to escape a grapple. Beyond this, knives remain relatively simple weapons, relying on close-range attacks rather than numerous specialized mechanics.</p>
+<p>Knife attacks use the same Hit Roll system as firearms. If the Hit Roll succeeds, the attacker rolls a Location Roll to determine where the strike lands. The effects of the strike depend on the location rolled and the type of attack being performed.</p>
+
+<h3>Knife Hit Locations</h3>
+<table>
+<thead>
+<tr><th>Roll</th><th>Location</th><th>Effect</th></tr>
+</thead>
+<tbody>
+<tr><td>1–7 (35%)</td><td>Arms</td><td>The target drops whatever they are holding and makes a DC 9 Condition Check. On a failure, the struck arm is incapacitated and cannot be used. On a success, the arm remains functional.</td></tr>
+<tr><td>8–14 (35%)</td><td>Legs</td><td>The target makes a DC 5 Condition Check. On a failure, the struck leg is incapacitated and the target's movement speed is halved. On a success, the leg remains functional and movement is unaffected.</td></tr>
+<tr><td>15–20 (30%)</td><td>Torso</td><td>Apply damage according to the type of knife attack being performed.</td></tr>
+</tbody>
+</table>
+
+<h3>Slashing</h3>
+<p>Slashing deals an initial <strong>1d4 damage</strong> and inflicts the Bleeding condition when it hits the torso. While the target is bleeding, they take an additional 1d4 damage at the start of each of their active turns until the wound is bandaged. This bleeding effect only applies to torso hits.</p>
+
+<h3>Stabbing</h3>
+<p>Stabbing deals greater initial damage of <strong>1d6</strong> but causes little to no recurring bleeding. Stabbing attacks only deal their damage when the Location Roll indicates a torso hit. If the roll indicates the arms or legs, the stabbing attack does not connect with the torso, and its normal stabbing damage is not applied. The Condition DC roll for stabbing attacks is <strong>DC 14</strong>.</p>
+
+<h3>Slit Throat</h3>
+<p>Knives also have a special action called Slit Throat. When sneaking behind someone, a character may declare that they are attempting to slit the target's throat. This action succeeds only on a natural 20 on the Hit Roll and serves as the knife equivalent of a firearm headshot. The action can be heard by anyone within a 10-foot radius. Because this is a declared action, the attacker must announce their intention to attempt it before rolling.</p>
+
+<h3>Release</h3>
+<p>Knives also have a Release function that allows a character to cut themselves free from a lasso without spending AP. Instead of spending 3 AP to untangle themselves, a character equipped with a knife can attempt to cut the lasso and escape by succeeding on a <strong>DC 5 Condition Check</strong>. This action costs no AP.</p>
+
+<h2>Grappling</h2>
+<p>Grappling is divided into two types: <strong>Physical Grappling</strong> and <strong>Lasso Grappling</strong>.</p>
+
+<h3>Physical Grappling</h3>
+<p>A Physical Grapple represents directly controlling another character, such as tackling them or restraining their arms. To initiate a Physical Grapple, the attacker makes a Might Check against the target's Might, with a DC equal to the target's Might. If the attacker succeeds, the target becomes physically grappled.</p>
+<p>To escape a Physical Grapple, compare the Might of both characters. If the grappled character has higher Might than the grappler, they automatically overcome the grapple. If their Might is equal to or lower than the grappler's, they must succeed on a DC 10 Might Check to escape.</p>
+
+<h3>Lasso Grappling</h3>
+<p>A Lasso Grapple costs <strong>2 AP</strong> and requires a Hit Roll against the target's DB. If the Hit Roll succeeds, both characters roll a d20 and add their Agility modifier. If the attacker's total is higher, the target becomes Lassoed. A Lassoed character cannot move freely.</p>
+<p>A lassoed individual may use Release if they have a knife equipped, cutting the lasso and escaping. Without an equipped knife, they must spend <strong>3 AP</strong> and succeed on a Might Check against <strong>DC 15</strong> to escape. The attacker may spend 1 AP to pull the target 5 feet closer. The attacker does not need to physically hold the target to maintain the lasso.</p>
+
+<h2>Punching and Physical Attacks</h2>
+<p>Punching or making any other unarmed physical attack requires you to be within 5 feet of your opponent. To determine whether an attack hits, roll against the target's Defense Class (DC) divided by 2. Unarmed damage is calculated by dividing your Might score by the result of a 1d6 roll. Making one punch costs <strong>1 Action Point (AP)</strong>, and each punch requires its own attack roll and damage roll.</p>
+
+<h2>Cover</h2>
+<p>Cover in <em>Dust &amp; Blood</em> works a little differently than in most tabletop RPGs. Cover protects specific parts of a character's body rather than making them harder to hit overall.</p>
+<p>When attacking an enemy behind cover, roll your <strong>Hit Roll</strong> normally. If the attack hits, roll for the <strong>Hit Location</strong> as usual. If the body part you rolled is protected by cover, the shot hits the cover instead, and the target takes no damage. If the body part is exposed, the attack hits the target normally.</p>
+
+<h2>Gun Handling</h2>
+<p>Every gun has a minimum required number of hands to use the weapon. Some traits will alter this; consult the weapon-type tables. For example, if you need two hands to use a weapon but want to climb a ladder or lead a horse, you cannot use that weapon while doing so.</p>
+<p>When you go prone and mount your weapon against the ground, or mount it on a stable surface such as a windowsill, you gain <strong>+5 to Hit</strong>. This only works with rifles.</p>
+
+<h2>Helping Hand</h2>
+<p>When a character assists an ally with an Ability Check, the assisting character rolls 4d6. Convert the total rolled into its corresponding modifier using the same rules as character creation. Apply that modifier to the ally's Ability Check, adding it if positive or subtracting it if negative. A high roll can improve the ally's chances of success, while a low roll can hinder them.</p>
+
+<h2>Proficiency in Weapons</h2>
+<p>If you train in a weapon during downtime, or gain more than 100 XP with the weapon, you gain proficiency with it. You add your proficiency bonus to the Hit Roll.</p>
+
+<h2>Gun Modifications</h2>
+<p>Every firearm has three modification slots that can be filled with different gun modifications to improve its performance. Modifications grant specific mechanical bonuses, such as reducing Action Point (AP) costs, improving accuracy, increasing ammunition capacity, or improving reload speed. Modifications can be interchanged during downtime, allowing players to customize their firearms to suit their playstyle. Each modification provides a distinct benefit, giving players the freedom to build their weapons around their preferred approach to combat.</p>
+
+<h1>Weapon Type Tables</h1>
+<p>The following tables describe weapon types, their required hands, and their mechanical effects.</p>
+
+<h2>Handguns</h2>
+<table>
+<thead>
+<tr><th>Weapon Type</th><th>Required Hands</th><th>Description / Effects</th></tr>
+</thead>
+<tbody>
+<tr><td>Single-Action Revolver</td><td>1</td><td>Grants +1 to Hit Rolls when the hammer is cocked before firing. Cocking the hammer costs 1 AP.</td></tr>
+<tr><td>Double-Action Revolver</td><td>1</td><td>Can fire without manually cocking the hammer. No additional AP cost to cock.</td></tr>
+<tr><td>Break-Action Revolver</td><td>1</td><td>Reloading costs 1 fewer AP than a standard revolver, to a minimum of 1 AP.</td></tr>
+<tr><td>Pocket Revolver</td><td>1</td><td>Grants +1 to Hit Rolls within 15 ft. Suffers -2 to Hit Rolls beyond 30 ft.</td></tr>
+<tr><td>Derringer</td><td>1</td><td>Grants +2 to Hit Rolls within 10 ft. Suffers -3 to Hit Rolls beyond 20 ft.</td></tr>
+<tr><td>Pepperbox Pistol</td><td>1</td><td>Grants +1 to Hit Rolls within 15 ft. Reloading costs 1 additional AP.</td></tr>
+</tbody>
+</table>
+
+<h2>Rifles</h2>
+<table>
+<thead>
+<tr><th>Weapon Type</th><th>Required Hands</th><th>Description / Effects</th></tr>
+</thead>
+<tbody>
+<tr><td>Lever-Action Rifle</td><td>2</td><td>Standard rifle type with no additional bonuses or penalties.</td></tr>
+<tr><td>Heavy Lever-Action Rifle</td><td>2</td><td>Deals +1 damage per successful hit. Movement costs 1 additional AP while carrying it.</td></tr>
+<tr><td>Short Lever-Action Rifle</td><td>2</td><td>Grants +1 to Hit Rolls within 30 ft. Suffers -1 to Hit Rolls beyond 75 ft.</td></tr>
+<tr><td>Single-Shot Rifle</td><td>2</td><td>Grants +2 to Hit Rolls beyond 75 ft. Holds only 1 round.</td></tr>
+<tr><td>Long-Range Rifle</td><td>2</td><td>Grants +2 to Hit Rolls beyond 100 ft. Suffers -1 to Hit Rolls within 30 ft.</td></tr>
+<tr><td>Rolling-Block Rifle</td><td>2</td><td>Grants +1 to Hit Rolls beyond 75 ft. Reloading costs 1 additional AP.</td></tr>
+<tr><td>Falling-Block Rifle</td><td>2</td><td>Grants +1 to Hit Rolls beyond 75 ft. Reloading costs 1 fewer AP, to a minimum of 1 AP.</td></tr>
+<tr><td>Single-Shot Military Rifle</td><td>2</td><td>Grants +1 to Hit Rolls beyond 75 ft. Holds only 1 round.</td></tr>
+<tr><td>Bolt-Action Rifle</td><td>2</td><td>Grants +1 to Hit Rolls beyond 75 ft.</td></tr>
+<tr><td>Bolt-Action Repeater</td><td>2</td><td>Grants +1 to Hit Rolls beyond 75 ft. Reloading costs 1 additional AP.</td></tr>
+<tr><td>Repeating Rifle</td><td>2</td><td>Grants +1 to Hit Rolls within 50 ft.</td></tr>
+<tr><td>Military Repeater</td><td>2</td><td>Grants +1 to Hit Rolls beyond 50 ft.</td></tr>
+</tbody>
+</table>
+
+<h2>Shotguns</h2>
+<table>
+<thead>
+<tr><th>Weapon Type</th><th>Required Hands</th><th>Description / Effects</th></tr>
+</thead>
+<tbody>
+<tr><td>Single-Barrel Shotgun</td><td>2</td><td>Grants +1 to Hit Rolls within 15 ft. Holds only 1 shell.</td></tr>
+<tr><td>Double-Barrel Shotgun</td><td>2</td><td>Grants +2 to Hit Rolls within 15 ft. Holds 2 shells.</td></tr>
+<tr><td>Side-by-Side Shotgun</td><td>2</td><td>Grants +1 to Hit Rolls within 15 ft. Reloading both barrels costs 1 AP.</td></tr>
+<tr><td>Over-and-Under Shotgun</td><td>2</td><td>Grants +1 to Hit Rolls beyond 15 ft. Reloading both barrels costs 1 AP.</td></tr>
+<tr><td>Lever-Action Shotgun</td><td>2</td><td>Grants +1 to Hit Rolls within 30 ft.</td></tr>
+<tr><td>Repeating Shotgun</td><td>2</td><td>Grants +1 to Hit Rolls within 15 ft. Reloading costs 1 additional AP.</td></tr>
+</tbody>
+</table>
+
+<h2>Other Firearm Categories</h2>
+<table>
+<thead>
+<tr><th>Weapon Type</th><th>Required Hands</th><th>Description / Effects</th></tr>
+</thead>
+<tbody>
+<tr><td>Carbine</td><td>2</td><td>Grants +1 to Hit Rolls while mounted. Suffers -1 to Hit Rolls beyond 100 ft.</td></tr>
+<tr><td>Musket</td><td>2</td><td>Grants +1 to Hit Rolls beyond 50 ft. Reloading costs 1 additional AP.</td></tr>
+<tr><td>Rifle-Musket</td><td>2</td><td>Grants +1 to Hit Rolls beyond 50 ft. Reloading costs 1 additional AP.</td></tr>
+</tbody>
+</table>
+[END HTML]
+[END PAGE]
+
+
+[PAGE]
+id: outdoor-activities
+title: Outdoor Activities
+category: Gameplay Systems
+[HTML]
+<h1>Outdoor Activities</h1>
+
+<h2>Fishing</h2>
+
+<p>Fishing in Dust &amp; Blood is resolved using three dice rolls. First, the player rolls a d20 to beat the Fishing DC assigned to the lake. The roll must be higher than the DC to successfully catch a fish; otherwise, the attempt fails. On a successful fishing check, the player rolls another d20 on the Freshwater Fish Table to determine which species they catch. The player then rolls a d12 on the Fish Size Table to determine the fish's size, ranging from tiny to trophy-sized. The fish's size determines its final selling price by multiplying its base price by the appropriate size modifier. The GM determines the fish's actual length and weight based on its species and size category.</p>
+
+<h3>Freshwater Fish Table</h3>
+
+<table>
+<thead>
+<tr><th>D20 Roll</th><th>Fish</th><th>Rarity</th><th>Base Selling Price</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Bluegill</td><td>Common</td><td>$0.10</td></tr>
+<tr><td>2</td><td>Crappie</td><td>Common</td><td>$0.15</td></tr>
+<tr><td>3</td><td>Yellow Perch</td><td>Common</td><td>$0.15</td></tr>
+<tr><td>4</td><td>Bullhead Catfish</td><td>Common</td><td>$0.15</td></tr>
+<tr><td>5</td><td>Common Carp</td><td>Common</td><td>$0.20</td></tr>
+<tr><td>6</td><td>Largemouth Bass</td><td>Uncommon</td><td>$0.30</td></tr>
+<tr><td>7</td><td>Smallmouth Bass</td><td>Uncommon</td><td>$0.30</td></tr>
+<tr><td>8</td><td>Channel Catfish</td><td>Uncommon</td><td>$0.35</td></tr>
+<tr><td>9</td><td>Rainbow Trout</td><td>Uncommon</td><td>$0.40</td></tr>
+<tr><td>10</td><td>Brown Trout</td><td>Uncommon</td><td>$0.45</td></tr>
+<tr><td>11</td><td>Walleye</td><td>Uncommon</td><td>$0.50</td></tr>
+<tr><td>12</td><td>Northern Pike</td><td>Uncommon</td><td>$0.50</td></tr>
+<tr><td>13</td><td>Freshwater Drum</td><td>Uncommon</td><td>$0.30</td></tr>
+<tr><td>14</td><td>White Sucker</td><td>Common</td><td>$0.15</td></tr>
+<tr><td>15</td><td>Chain Pickerel</td><td>Uncommon</td><td>$0.35</td></tr>
+<tr><td>16</td><td>Lake Whitefish</td><td>Uncommon</td><td>$0.40</td></tr>
+<tr><td>17</td><td>Flathead Catfish</td><td>Rare</td><td>$0.75</td></tr>
+<tr><td>18</td><td>Muskellunge</td><td>Rare</td><td>$1.00</td></tr>
+<tr><td>19</td><td>Alligator Gar</td><td>Rare</td><td>$1.25</td></tr>
+<tr><td>20</td><td>Lake Sturgeon</td><td>Very Rare</td><td>$2.00</td></tr>
+</tbody>
+</table>
+
+<h3>Fish Size Table</h3>
+
+<p>After determining the fish species, roll a d12 to determine its size. Apply the result to the fish's normal size range.</p>
+
+<table>
+<thead>
+<tr><th>D12 Roll</th><th>Size Category</th><th>Size Description</th><th>Selling Price Modifier</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Tiny</td><td>50% of normal minimum size</td><td>×0.25</td></tr>
+<tr><td>2</td><td>Undersized</td><td>75% of normal minimum size</td><td>×0.50</td></tr>
+<tr><td>3–4</td><td>Small</td><td>Lower end of normal range</td><td>×0.75</td></tr>
+<tr><td>5–7</td><td>Average</td><td>Middle of normal range</td><td>×1</td></tr>
+<tr><td>8–9</td><td>Large</td><td>Upper end of normal range</td><td>×1.5</td></tr>
+<tr><td>10–11</td><td>Very Large</td><td>Above normal range</td><td>×2</td></tr>
+<tr><td>12</td><td>Trophy</td><td>Exceptional specimen</td><td>×3</td></tr>
+</tbody>
+</table>
+
+<h3>Fishing Rules</h3>
+
+<p><strong>Requirement:</strong> You must have a fishing pole with bait or a lure.</p>
+
+<ol>
+<li>Roll a d20 against the lake's Fishing DC. You must roll higher than the DC to catch a fish.</li>
+<li>If successful, roll a d20 on the Freshwater Fish Table.</li>
+<li>Roll a d12 on the Fish Size Table to determine the fish's size category.</li>
+<li>Multiply the fish's base selling price by its size modifier to determine its final value.</li>
+<li>The GM determines the fish's actual length and weight based on its species and size category.</li>
+</ol>
+
+<p><strong>Example:</strong> You fish in a lake with a Fishing DC of 10 and roll a 15. You then roll a 9 on the Freshwater Fish Table, catching a Brown Trout. Your d12 size roll is 10, making it Very Large. Its base price of $0.45 is multiplied by 2, making it worth $0.90.</p>
+
+<hr>
+
+<h2>Foraging</h2>
+
+<p>Foraging in Dust &amp; Blood is resolved through three dice rolls. First, the player rolls a d20 to beat the Foraging DC assigned to the forest. The roll must exceed the DC to successfully find a plant; otherwise, the attempt fails. On a successful foraging check, the player rolls a d20 on the Plant Species Table to determine which herb they discover. Once the plant species has been determined, the player rolls a d4 on the Plant Purity Table to establish the purity of the herb they have gathered.</p>
+
+<h3>Plant Species Table</h3>
+
+<table>
+<thead>
+<tr><th>D20 Roll</th><th>Herb</th></tr>
+</thead>
+<tbody>
+<tr><td>1–3</td><td>Yarrow</td></tr>
+<tr><td>4–5</td><td>Willow Bark</td></tr>
+<tr><td>6–7</td><td>Peppermint</td></tr>
+<tr><td>8–9</td><td>Chamomile</td></tr>
+<tr><td>10–11</td><td>Plantain Leaf</td></tr>
+<tr><td>12–13</td><td>Calendula</td></tr>
+<tr><td>14–15</td><td>Ginger Root</td></tr>
+<tr><td>16–17</td><td>Echinacea</td></tr>
+<tr><td>18</td><td>Goldenseal</td></tr>
+<tr><td>19</td><td>Aloe</td></tr>
+<tr><td>20</td><td>Ginseng Root</td></tr>
+</tbody>
+</table>
+
+<h3>Plant Purity Table</h3>
+
+<table>
+<thead>
+<tr><th>D4 Roll</th><th>Purity</th></tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>Flawed</td></tr>
+<tr><td>2–3</td><td>Normal</td></tr>
+<tr><td>4</td><td>Pure</td></tr>
+</tbody>
+</table>
+
+[END HTML]
+[END PAGE]
